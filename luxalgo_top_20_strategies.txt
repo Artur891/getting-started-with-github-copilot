@@ -17,13 +17,6 @@
         "blocked_regimes": [
           "ranging"
         ],
-        "recommended_pairs": [
-          "EURUSD",
-          "GBPUSD",
-          "AUDUSD",
-          "USDCAD",
-          "GOLD"
-        ],
         "conditions": [
           {
             "type": "liquidity_sweep",
@@ -77,13 +70,6 @@
         "blocked_regimes": [
           "ranging"
         ],
-        "recommended_pairs": [
-          "EURUSD",
-          "GBPUSD",
-          "AUDUSD",
-          "USDCAD",
-          "GOLD"
-        ],
         "conditions": [
           {
             "type": "liquidity_sweep",
@@ -136,13 +122,6 @@
         "blocked_regimes": [
           "ranging"
         ],
-        "recommended_pairs": [
-          "GOLD",
-          "EURUSD",
-          "GBPUSD",
-          "GBPJPY",
-          "AUDUSD"
-        ],
         "conditions": [
           {
             "type": "market_structure",
@@ -190,13 +169,6 @@
         "min_confidence": 75,
         "blocked_regimes": [
           "ranging"
-        ],
-        "recommended_pairs": [
-          "GOLD",
-          "EURUSD",
-          "GBPUSD",
-          "GBPJPY",
-          "AUDUSD"
         ],
         "conditions": [
           {
@@ -246,11 +218,6 @@
         "blocked_regimes": [
           "ranging"
         ],
-        "recommended_pairs": [
-          "EURUSD",
-          "GBPUSD",
-          "AUDUSD"
-        ],
         "conditions": [
           {
             "type": "ml_knn_signal",
@@ -294,11 +261,6 @@
         "blocked_regimes": [
           "ranging"
         ],
-        "recommended_pairs": [
-          "EURUSD",
-          "GBPUSD",
-          "AUDUSD"
-        ],
         "conditions": [
           {
             "type": "ml_knn_signal",
@@ -341,13 +303,6 @@
         "min_confidence": 75,
         "blocked_regimes": [
           "ranging"
-        ],
-        "recommended_pairs": [
-          "EURUSD",
-          "GBPUSD",
-          "AUDUSD",
-          "USDCAD",
-          "USDJPY"
         ],
         "conditions": [
           {
@@ -396,13 +351,6 @@
         "blocked_regimes": [
           "ranging"
         ],
-        "recommended_pairs": [
-          "EURUSD",
-          "GBPUSD",
-          "AUDUSD",
-          "USDCAD",
-          "USDJPY"
-        ],
         "conditions": [
           {
             "type": "order_block_tap",
@@ -449,14 +397,6 @@
         "min_confidence": 75,
         "blocked_regimes": [
           "ranging"
-        ],
-        "recommended_pairs": [
-          "GOLD",
-          "EURUSD",
-          "GBPUSD",
-          "GBPJPY",
-          "AUDUSD",
-          "GBPJPY"
         ],
         "conditions": [
           {
@@ -505,14 +445,6 @@
         "blocked_regimes": [
           "ranging"
         ],
-        "recommended_pairs": [
-          "GOLD",
-          "EURUSD",
-          "GBPUSD",
-          "GBPJPY",
-          "AUDUSD",
-          "GBPJPY"
-        ],
         "conditions": [
           {
             "type": "supertrend",
@@ -560,12 +492,6 @@
         "blocked_regimes": [
           "ranging"
         ],
-        "recommended_pairs": [
-          "GOLD",
-          "EURUSD",
-          "GBPUSD",
-          "USDCAD"
-        ],
         "conditions": [
           {
             "type": "poc_bounce",
@@ -608,12 +534,6 @@
         "blocked_regimes": [
           "ranging"
         ],
-        "recommended_pairs": [
-          "GOLD",
-          "EURUSD",
-          "GBPUSD",
-          "USDCAD"
-        ],
         "conditions": [
           {
             "type": "poc_bounce",
@@ -655,13 +575,6 @@
         "min_confidence": 75,
         "blocked_regimes": [
           "ranging"
-        ],
-        "recommended_pairs": [
-          "GOLD",
-          "GBPJPY",
-          "GBPAUD",
-          "EURNZD",
-          "USDZAR"
         ],
         "conditions": [
           {
@@ -709,13 +622,6 @@
         "min_confidence": 75,
         "blocked_regimes": [
           "ranging"
-        ],
-        "recommended_pairs": [
-          "GOLD",
-          "GBPJPY",
-          "GBPAUD",
-          "EURNZD",
-          "USDZAR"
         ],
         "conditions": [
           {
@@ -766,11 +672,6 @@
         "blocked_regimes": [
           "ranging"
         ],
-        "recommended_pairs": [
-          "EURGBP",
-          "USDJPY",
-          "USDCAD"
-        ],
         "conditions": [
           {
             "type": "oscillator_confluence",
@@ -820,11 +721,6 @@
         "blocked_regimes": [
           "ranging"
         ],
-        "recommended_pairs": [
-          "EURGBP",
-          "USDJPY",
-          "USDCAD"
-        ],
         "conditions": [
           {
             "type": "oscillator_confluence",
@@ -872,12 +768,6 @@
         "blocked_regimes": [
           "ranging"
         ],
-        "recommended_pairs": [
-          "GOLD",
-          "GBPJPY",
-          "EURUSD",
-          "AUDUSD"
-        ],
         "conditions": [
           {
             "type": "snr_break_retest",
@@ -920,12 +810,6 @@
         "blocked_regimes": [
           "ranging"
         ],
-        "recommended_pairs": [
-          "GOLD",
-          "GBPJPY",
-          "EURUSD",
-          "AUDUSD"
-        ],
         "conditions": [
           {
             "type": "snr_break_retest",
@@ -967,13 +851,6 @@
         "min_confidence": 75,
         "blocked_regimes": [
           "ranging"
-        ],
-        "recommended_pairs": [
-          "GOLD",
-          "EURUSD",
-          "GBPUSD",
-          "GBPJPY",
-          "AUDUSD"
         ],
         "conditions": [
           {
@@ -1022,13 +899,6 @@
         "blocked_regimes": [
           "ranging"
         ],
-        "recommended_pairs": [
-          "GOLD",
-          "EURUSD",
-          "GBPUSD",
-          "GBPJPY",
-          "AUDUSD"
-        ],
         "conditions": [
           {
             "type": "ema_cloud",
@@ -1075,12 +945,6 @@
         "min_confidence": 75,
         "blocked_regimes": [
           "ranging"
-        ],
-        "recommended_pairs": [
-          "EURGBP",
-          "USDJPY",
-          "USDCAD",
-          "USDCAD"
         ],
         "conditions": [
           {
@@ -1129,12 +993,6 @@
         "blocked_regimes": [
           "ranging"
         ],
-        "recommended_pairs": [
-          "EURGBP",
-          "USDJPY",
-          "USDCAD",
-          "USDCAD"
-        ],
         "conditions": [
           {
             "type": "vwap_deviation",
@@ -1181,13 +1039,6 @@
         "min_confidence": 75,
         "blocked_regimes": [
           "ranging"
-        ],
-        "recommended_pairs": [
-          "GOLD",
-          "EURUSD",
-          "GBPUSD",
-          "USDJPY",
-          "GBPJPY"
         ],
         "conditions": [
           {
@@ -1236,13 +1087,6 @@
         "blocked_regimes": [
           "ranging"
         ],
-        "recommended_pairs": [
-          "GOLD",
-          "EURUSD",
-          "GBPUSD",
-          "USDJPY",
-          "GBPJPY"
-        ],
         "conditions": [
           {
             "type": "zone_rejection",
@@ -1290,14 +1134,6 @@
         "blocked_regimes": [
           "ranging"
         ],
-        "recommended_pairs": [
-          "GOLD",
-          "GBPJPY",
-          "GBPAUD",
-          "EURNZD",
-          "USDZAR",
-          "EURUSD"
-        ],
         "conditions": [
           {
             "type": "bb_squeeze_break",
@@ -1340,14 +1176,6 @@
         "blocked_regimes": [
           "ranging"
         ],
-        "recommended_pairs": [
-          "GOLD",
-          "GBPJPY",
-          "GBPAUD",
-          "EURNZD",
-          "USDZAR",
-          "EURUSD"
-        ],
         "conditions": [
           {
             "type": "bb_squeeze_break",
@@ -1389,12 +1217,6 @@
         "min_confidence": 75,
         "blocked_regimes": [
           "ranging"
-        ],
-        "recommended_pairs": [
-          "USDJPY",
-          "GBPJPY",
-          "EURUSD",
-          "GOLD"
         ],
         "conditions": [
           {
@@ -1443,12 +1265,6 @@
         "blocked_regimes": [
           "ranging"
         ],
-        "recommended_pairs": [
-          "USDJPY",
-          "GBPJPY",
-          "EURUSD",
-          "GOLD"
-        ],
         "conditions": [
           {
             "type": "kumo_breakout",
@@ -1496,12 +1312,6 @@
         "blocked_regimes": [
           "ranging"
         ],
-        "recommended_pairs": [
-          "EURGBP",
-          "USDJPY",
-          "USDCAD",
-          "AUDUSD"
-        ],
         "conditions": [
           {
             "type": "divergence",
@@ -1545,12 +1355,6 @@
         "blocked_regimes": [
           "ranging"
         ],
-        "recommended_pairs": [
-          "EURGBP",
-          "USDJPY",
-          "USDCAD",
-          "AUDUSD"
-        ],
         "conditions": [
           {
             "type": "divergence",
@@ -1593,12 +1397,6 @@
         "min_confidence": 75,
         "blocked_regimes": [
           "ranging"
-        ],
-        "recommended_pairs": [
-          "GBPUSD",
-          "GBPJPY",
-          "GOLD",
-          "USDCAD"
         ],
         "conditions": [
           {
@@ -1647,12 +1445,6 @@
         "blocked_regimes": [
           "ranging"
         ],
-        "recommended_pairs": [
-          "GBPUSD",
-          "GBPJPY",
-          "GOLD",
-          "USDCAD"
-        ],
         "conditions": [
           {
             "type": "heikin_ashi_smoothed",
@@ -1700,15 +1492,6 @@
         "blocked_regimes": [
           "ranging"
         ],
-        "recommended_pairs": [
-          "EURUSD",
-          "GBPUSD",
-          "AUDUSD",
-          "USDCAD",
-          "EURGBP",
-          "USDJPY",
-          "USDCAD"
-        ],
         "conditions": [
           {
             "type": "pivot_reversal",
@@ -1750,15 +1533,6 @@
         "min_confidence": 75,
         "blocked_regimes": [
           "ranging"
-        ],
-        "recommended_pairs": [
-          "EURUSD",
-          "GBPUSD",
-          "AUDUSD",
-          "USDCAD",
-          "EURGBP",
-          "USDJPY",
-          "USDCAD"
         ],
         "conditions": [
           {
@@ -1802,15 +1576,6 @@
         "blocked_regimes": [
           "ranging"
         ],
-        "recommended_pairs": [
-          "GOLD",
-          "EURUSD",
-          "GBPUSD",
-          "GBPJPY",
-          "AUDUSD",
-          "GBPAUD",
-          "EURNZD"
-        ],
         "conditions": [
           {
             "type": "atr_trailing_bounce",
@@ -1852,15 +1617,6 @@
         "min_confidence": 75,
         "blocked_regimes": [
           "ranging"
-        ],
-        "recommended_pairs": [
-          "GOLD",
-          "EURUSD",
-          "GBPUSD",
-          "GBPJPY",
-          "AUDUSD",
-          "GBPAUD",
-          "EURNZD"
         ],
         "conditions": [
           {
@@ -1904,12 +1660,6 @@
         "blocked_regimes": [
           "ranging"
         ],
-        "recommended_pairs": [
-          "GOLD",
-          "USDZAR",
-          "GBPJPY",
-          "EURUSD"
-        ],
         "conditions": [
           {
             "type": "donchian_breakout",
@@ -1952,12 +1702,6 @@
         "blocked_regimes": [
           "ranging"
         ],
-        "recommended_pairs": [
-          "GOLD",
-          "USDZAR",
-          "GBPJPY",
-          "EURUSD"
-        ],
         "conditions": [
           {
             "type": "donchian_breakout",
@@ -1999,13 +1743,6 @@
         "min_confidence": 75,
         "blocked_regimes": [
           "ranging"
-        ],
-        "recommended_pairs": [
-          "EURUSD",
-          "GBPUSD",
-          "AUDUSD",
-          "USDCAD",
-          "GOLD"
         ],
         "conditions": [
           {
@@ -2054,13 +1791,6 @@
         "min_confidence": 75,
         "blocked_regimes": [
           "ranging"
-        ],
-        "recommended_pairs": [
-          "EURUSD",
-          "GBPUSD",
-          "AUDUSD",
-          "USDCAD",
-          "GOLD"
         ],
         "conditions": [
           {
