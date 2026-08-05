@@ -17,6 +17,13 @@
         "blocked_regimes": [
           "ranging"
         ],
+        "recommended_pairs": [
+          "EURUSD",
+          "GBPUSD",
+          "AUDUSD",
+          "USDCAD",
+          "GOLD"
+        ],
         "conditions": [
           {
             "type": "liquidity_sweep",
@@ -39,7 +46,7 @@
           "timeframe": "M15",
           "side": "low",
           "lookback": 20,
-          "atr_buffer": 1.0
+          "atr_buffer": 1.2
         },
         "tp": {
           "type": "rr",
@@ -70,6 +77,13 @@
         "blocked_regimes": [
           "ranging"
         ],
+        "recommended_pairs": [
+          "EURUSD",
+          "GBPUSD",
+          "AUDUSD",
+          "USDCAD",
+          "GOLD"
+        ],
         "conditions": [
           {
             "type": "liquidity_sweep",
@@ -92,7 +106,7 @@
           "timeframe": "M15",
           "side": "high",
           "lookback": 20,
-          "atr_buffer": 1.0
+          "atr_buffer": 1.2
         },
         "tp": {
           "type": "rr",
@@ -122,6 +136,13 @@
         "blocked_regimes": [
           "ranging"
         ],
+        "recommended_pairs": [
+          "GOLD",
+          "EURUSD",
+          "GBPUSD",
+          "GBPJPY",
+          "AUDUSD"
+        ],
         "conditions": [
           {
             "type": "market_structure",
@@ -140,7 +161,7 @@
           "timeframe": "M15",
           "side": "low",
           "lookback": 20,
-          "atr_buffer": 1.0
+          "atr_buffer": 1.5
         },
         "tp": {
           "type": "rr",
@@ -170,6 +191,13 @@
         "blocked_regimes": [
           "ranging"
         ],
+        "recommended_pairs": [
+          "GOLD",
+          "EURUSD",
+          "GBPUSD",
+          "GBPJPY",
+          "AUDUSD"
+        ],
         "conditions": [
           {
             "type": "market_structure",
@@ -188,7 +216,7 @@
           "timeframe": "M15",
           "side": "high",
           "lookback": 20,
-          "atr_buffer": 1.0
+          "atr_buffer": 1.5
         },
         "tp": {
           "type": "rr",
@@ -217,6 +245,11 @@
         "min_confidence": 75,
         "blocked_regimes": [
           "ranging"
+        ],
+        "recommended_pairs": [
+          "EURUSD",
+          "GBPUSD",
+          "AUDUSD"
         ],
         "conditions": [
           {
@@ -261,6 +294,11 @@
         "blocked_regimes": [
           "ranging"
         ],
+        "recommended_pairs": [
+          "EURUSD",
+          "GBPUSD",
+          "AUDUSD"
+        ],
         "conditions": [
           {
             "type": "ml_knn_signal",
@@ -304,14 +342,23 @@
         "blocked_regimes": [
           "ranging"
         ],
+        "recommended_pairs": [
+          "EURUSD",
+          "GBPUSD",
+          "AUDUSD",
+          "USDCAD",
+          "USDJPY"
+        ],
         "conditions": [
           {
-            "type": "bullish",
-            "timeframe": "M15"
+            "type": "order_block_tap",
+            "timeframe": "M15",
+            "direction": "bullish"
           },
           {
-            "type": "bullish",
-            "timeframe": "M15"
+            "type": "rsi_divergence",
+            "timeframe": "M15",
+            "direction": "bullish"
           }
         ],
         "sl": {
@@ -319,7 +366,7 @@
           "timeframe": "M15",
           "side": "low",
           "lookback": 20,
-          "atr_buffer": 1.0
+          "atr_buffer": 1.2
         },
         "tp": {
           "type": "rr",
@@ -349,14 +396,23 @@
         "blocked_regimes": [
           "ranging"
         ],
+        "recommended_pairs": [
+          "EURUSD",
+          "GBPUSD",
+          "AUDUSD",
+          "USDCAD",
+          "USDJPY"
+        ],
         "conditions": [
           {
-            "type": "bearish",
-            "timeframe": "M15"
+            "type": "order_block_tap",
+            "timeframe": "M15",
+            "direction": "bearish"
           },
           {
-            "type": "bearish",
-            "timeframe": "M15"
+            "type": "rsi_divergence",
+            "timeframe": "M15",
+            "direction": "bearish"
           }
         ],
         "sl": {
@@ -364,7 +420,7 @@
           "timeframe": "M15",
           "side": "high",
           "lookback": 20,
-          "atr_buffer": 1.0
+          "atr_buffer": 1.2
         },
         "tp": {
           "type": "rr",
@@ -394,6 +450,14 @@
         "blocked_regimes": [
           "ranging"
         ],
+        "recommended_pairs": [
+          "GOLD",
+          "EURUSD",
+          "GBPUSD",
+          "GBPJPY",
+          "AUDUSD",
+          "GBPJPY"
+        ],
         "conditions": [
           {
             "type": "supertrend",
@@ -411,7 +475,7 @@
           "timeframe": "H1",
           "side": "low",
           "lookback": 20,
-          "atr_buffer": 1.0
+          "atr_buffer": 1.5
         },
         "tp": {
           "type": "rr",
@@ -441,6 +505,14 @@
         "blocked_regimes": [
           "ranging"
         ],
+        "recommended_pairs": [
+          "GOLD",
+          "EURUSD",
+          "GBPUSD",
+          "GBPJPY",
+          "AUDUSD",
+          "GBPJPY"
+        ],
         "conditions": [
           {
             "type": "supertrend",
@@ -458,7 +530,7 @@
           "timeframe": "H1",
           "side": "high",
           "lookback": 20,
-          "atr_buffer": 1.0
+          "atr_buffer": 1.5
         },
         "tp": {
           "type": "rr",
@@ -488,6 +560,12 @@
         "blocked_regimes": [
           "ranging"
         ],
+        "recommended_pairs": [
+          "GOLD",
+          "EURUSD",
+          "GBPUSD",
+          "USDCAD"
+        ],
         "conditions": [
           {
             "type": "poc_bounce",
@@ -500,7 +578,7 @@
           "timeframe": "M30",
           "side": "low",
           "lookback": 20,
-          "atr_buffer": 1.0
+          "atr_buffer": 1.1
         },
         "tp": {
           "type": "rr",
@@ -530,6 +608,12 @@
         "blocked_regimes": [
           "ranging"
         ],
+        "recommended_pairs": [
+          "GOLD",
+          "EURUSD",
+          "GBPUSD",
+          "USDCAD"
+        ],
         "conditions": [
           {
             "type": "poc_bounce",
@@ -542,7 +626,7 @@
           "timeframe": "M30",
           "side": "high",
           "lookback": 20,
-          "atr_buffer": 1.0
+          "atr_buffer": 1.1
         },
         "tp": {
           "type": "rr",
@@ -572,6 +656,13 @@
         "blocked_regimes": [
           "ranging"
         ],
+        "recommended_pairs": [
+          "GOLD",
+          "GBPJPY",
+          "GBPAUD",
+          "EURNZD",
+          "USDZAR"
+        ],
         "conditions": [
           {
             "type": "adx",
@@ -589,7 +680,7 @@
           "timeframe": "M15",
           "side": "low",
           "lookback": 20,
-          "atr_buffer": 1.0
+          "atr_buffer": 1.8
         },
         "tp": {
           "type": "rr",
@@ -619,6 +710,13 @@
         "blocked_regimes": [
           "ranging"
         ],
+        "recommended_pairs": [
+          "GOLD",
+          "GBPJPY",
+          "GBPAUD",
+          "EURNZD",
+          "USDZAR"
+        ],
         "conditions": [
           {
             "type": "adx",
@@ -636,7 +734,7 @@
           "timeframe": "M15",
           "side": "high",
           "lookback": 20,
-          "atr_buffer": 1.0
+          "atr_buffer": 1.8
         },
         "tp": {
           "type": "rr",
@@ -668,6 +766,11 @@
         "blocked_regimes": [
           "ranging"
         ],
+        "recommended_pairs": [
+          "EURGBP",
+          "USDJPY",
+          "USDCAD"
+        ],
         "conditions": [
           {
             "type": "oscillator_confluence",
@@ -685,7 +788,7 @@
           "timeframe": "M15",
           "side": "low",
           "lookback": 20,
-          "atr_buffer": 1.0
+          "atr_buffer": 0.8
         },
         "tp": {
           "type": "rr",
@@ -717,6 +820,11 @@
         "blocked_regimes": [
           "ranging"
         ],
+        "recommended_pairs": [
+          "EURGBP",
+          "USDJPY",
+          "USDCAD"
+        ],
         "conditions": [
           {
             "type": "oscillator_confluence",
@@ -734,7 +842,7 @@
           "timeframe": "M15",
           "side": "high",
           "lookback": 20,
-          "atr_buffer": 1.0
+          "atr_buffer": 0.8
         },
         "tp": {
           "type": "rr",
@@ -764,6 +872,12 @@
         "blocked_regimes": [
           "ranging"
         ],
+        "recommended_pairs": [
+          "GOLD",
+          "GBPJPY",
+          "EURUSD",
+          "AUDUSD"
+        ],
         "conditions": [
           {
             "type": "snr_break_retest",
@@ -776,7 +890,7 @@
           "timeframe": "H1",
           "side": "low",
           "lookback": 20,
-          "atr_buffer": 1.0
+          "atr_buffer": 1.3
         },
         "tp": {
           "type": "rr",
@@ -806,6 +920,12 @@
         "blocked_regimes": [
           "ranging"
         ],
+        "recommended_pairs": [
+          "GOLD",
+          "GBPJPY",
+          "EURUSD",
+          "AUDUSD"
+        ],
         "conditions": [
           {
             "type": "snr_break_retest",
@@ -818,7 +938,7 @@
           "timeframe": "H1",
           "side": "high",
           "lookback": 20,
-          "atr_buffer": 1.0
+          "atr_buffer": 1.3
         },
         "tp": {
           "type": "rr",
@@ -848,6 +968,13 @@
         "blocked_regimes": [
           "ranging"
         ],
+        "recommended_pairs": [
+          "GOLD",
+          "EURUSD",
+          "GBPUSD",
+          "GBPJPY",
+          "AUDUSD"
+        ],
         "conditions": [
           {
             "type": "ema_cloud",
@@ -865,7 +992,7 @@
           "timeframe": "M15",
           "side": "low",
           "lookback": 20,
-          "atr_buffer": 1.0
+          "atr_buffer": 1.2
         },
         "tp": {
           "type": "rr",
@@ -895,6 +1022,13 @@
         "blocked_regimes": [
           "ranging"
         ],
+        "recommended_pairs": [
+          "GOLD",
+          "EURUSD",
+          "GBPUSD",
+          "GBPJPY",
+          "AUDUSD"
+        ],
         "conditions": [
           {
             "type": "ema_cloud",
@@ -912,7 +1046,7 @@
           "timeframe": "M15",
           "side": "high",
           "lookback": 20,
-          "atr_buffer": 1.0
+          "atr_buffer": 1.2
         },
         "tp": {
           "type": "rr",
@@ -942,6 +1076,12 @@
         "blocked_regimes": [
           "ranging"
         ],
+        "recommended_pairs": [
+          "EURGBP",
+          "USDJPY",
+          "USDCAD",
+          "USDCAD"
+        ],
         "conditions": [
           {
             "type": "vwap_deviation",
@@ -959,7 +1099,7 @@
           "timeframe": "M5",
           "side": "low",
           "lookback": 20,
-          "atr_buffer": 1.0
+          "atr_buffer": 0.9
         },
         "tp": {
           "type": "rr",
@@ -989,6 +1129,12 @@
         "blocked_regimes": [
           "ranging"
         ],
+        "recommended_pairs": [
+          "EURGBP",
+          "USDJPY",
+          "USDCAD",
+          "USDCAD"
+        ],
         "conditions": [
           {
             "type": "vwap_deviation",
@@ -1006,7 +1152,7 @@
           "timeframe": "M5",
           "side": "high",
           "lookback": 20,
-          "atr_buffer": 1.0
+          "atr_buffer": 0.9
         },
         "tp": {
           "type": "rr",
@@ -1036,6 +1182,13 @@
         "blocked_regimes": [
           "ranging"
         ],
+        "recommended_pairs": [
+          "GOLD",
+          "EURUSD",
+          "GBPUSD",
+          "USDJPY",
+          "GBPJPY"
+        ],
         "conditions": [
           {
             "type": "zone_rejection",
@@ -1053,7 +1206,7 @@
           "timeframe": "M30",
           "side": "low",
           "lookback": 20,
-          "atr_buffer": 1.0
+          "atr_buffer": 1.4
         },
         "tp": {
           "type": "rr",
@@ -1083,6 +1236,13 @@
         "blocked_regimes": [
           "ranging"
         ],
+        "recommended_pairs": [
+          "GOLD",
+          "EURUSD",
+          "GBPUSD",
+          "USDJPY",
+          "GBPJPY"
+        ],
         "conditions": [
           {
             "type": "zone_rejection",
@@ -1100,7 +1260,7 @@
           "timeframe": "M30",
           "side": "high",
           "lookback": 20,
-          "atr_buffer": 1.0
+          "atr_buffer": 1.4
         },
         "tp": {
           "type": "rr",
@@ -1130,6 +1290,14 @@
         "blocked_regimes": [
           "ranging"
         ],
+        "recommended_pairs": [
+          "GOLD",
+          "GBPJPY",
+          "GBPAUD",
+          "EURNZD",
+          "USDZAR",
+          "EURUSD"
+        ],
         "conditions": [
           {
             "type": "bb_squeeze_break",
@@ -1142,7 +1310,7 @@
           "timeframe": "H1",
           "side": "low",
           "lookback": 20,
-          "atr_buffer": 1.0
+          "atr_buffer": 1.6
         },
         "tp": {
           "type": "rr",
@@ -1172,6 +1340,14 @@
         "blocked_regimes": [
           "ranging"
         ],
+        "recommended_pairs": [
+          "GOLD",
+          "GBPJPY",
+          "GBPAUD",
+          "EURNZD",
+          "USDZAR",
+          "EURUSD"
+        ],
         "conditions": [
           {
             "type": "bb_squeeze_break",
@@ -1184,7 +1360,7 @@
           "timeframe": "H1",
           "side": "high",
           "lookback": 20,
-          "atr_buffer": 1.0
+          "atr_buffer": 1.6
         },
         "tp": {
           "type": "rr",
@@ -1214,6 +1390,12 @@
         "blocked_regimes": [
           "ranging"
         ],
+        "recommended_pairs": [
+          "USDJPY",
+          "GBPJPY",
+          "EURUSD",
+          "GOLD"
+        ],
         "conditions": [
           {
             "type": "kumo_breakout",
@@ -1231,7 +1413,7 @@
           "timeframe": "H4",
           "side": "low",
           "lookback": 20,
-          "atr_buffer": 1.0
+          "atr_buffer": 1.5
         },
         "tp": {
           "type": "rr",
@@ -1261,6 +1443,12 @@
         "blocked_regimes": [
           "ranging"
         ],
+        "recommended_pairs": [
+          "USDJPY",
+          "GBPJPY",
+          "EURUSD",
+          "GOLD"
+        ],
         "conditions": [
           {
             "type": "kumo_breakout",
@@ -1278,7 +1466,7 @@
           "timeframe": "H4",
           "side": "high",
           "lookback": 20,
-          "atr_buffer": 1.0
+          "atr_buffer": 1.5
         },
         "tp": {
           "type": "rr",
@@ -1308,11 +1496,18 @@
         "blocked_regimes": [
           "ranging"
         ],
+        "recommended_pairs": [
+          "EURGBP",
+          "USDJPY",
+          "USDCAD",
+          "AUDUSD"
+        ],
         "conditions": [
           {
-            "type": "regular_bullish",
+            "type": "divergence",
             "timeframe": "M15",
-            "indicator": "RSI"
+            "indicator": "RSI",
+            "direction": "regular_bullish"
           }
         ],
         "sl": {
@@ -1320,7 +1515,7 @@
           "timeframe": "M15",
           "side": "low",
           "lookback": 20,
-          "atr_buffer": 1.0
+          "atr_buffer": 0.9
         },
         "tp": {
           "type": "rr",
@@ -1350,11 +1545,18 @@
         "blocked_regimes": [
           "ranging"
         ],
+        "recommended_pairs": [
+          "EURGBP",
+          "USDJPY",
+          "USDCAD",
+          "AUDUSD"
+        ],
         "conditions": [
           {
-            "type": "regular_bearish",
+            "type": "divergence",
             "timeframe": "M15",
-            "indicator": "RSI"
+            "indicator": "RSI",
+            "direction": "regular_bearish"
           }
         ],
         "sl": {
@@ -1362,7 +1564,7 @@
           "timeframe": "M15",
           "side": "high",
           "lookback": 20,
-          "atr_buffer": 1.0
+          "atr_buffer": 0.9
         },
         "tp": {
           "type": "rr",
@@ -1392,6 +1594,12 @@
         "blocked_regimes": [
           "ranging"
         ],
+        "recommended_pairs": [
+          "GBPUSD",
+          "GBPJPY",
+          "GOLD",
+          "USDCAD"
+        ],
         "conditions": [
           {
             "type": "heikin_ashi_smoothed",
@@ -1409,7 +1617,7 @@
           "timeframe": "H1",
           "side": "low",
           "lookback": 20,
-          "atr_buffer": 1.0
+          "atr_buffer": 1.4
         },
         "tp": {
           "type": "rr",
@@ -1439,6 +1647,12 @@
         "blocked_regimes": [
           "ranging"
         ],
+        "recommended_pairs": [
+          "GBPUSD",
+          "GBPJPY",
+          "GOLD",
+          "USDCAD"
+        ],
         "conditions": [
           {
             "type": "heikin_ashi_smoothed",
@@ -1456,7 +1670,7 @@
           "timeframe": "H1",
           "side": "high",
           "lookback": 20,
-          "atr_buffer": 1.0
+          "atr_buffer": 1.4
         },
         "tp": {
           "type": "rr",
@@ -1485,6 +1699,15 @@
         "min_confidence": 75,
         "blocked_regimes": [
           "ranging"
+        ],
+        "recommended_pairs": [
+          "EURUSD",
+          "GBPUSD",
+          "AUDUSD",
+          "USDCAD",
+          "EURGBP",
+          "USDJPY",
+          "USDCAD"
         ],
         "conditions": [
           {
@@ -1528,6 +1751,15 @@
         "blocked_regimes": [
           "ranging"
         ],
+        "recommended_pairs": [
+          "EURUSD",
+          "GBPUSD",
+          "AUDUSD",
+          "USDCAD",
+          "EURGBP",
+          "USDJPY",
+          "USDCAD"
+        ],
         "conditions": [
           {
             "type": "pivot_reversal",
@@ -1570,6 +1802,15 @@
         "blocked_regimes": [
           "ranging"
         ],
+        "recommended_pairs": [
+          "GOLD",
+          "EURUSD",
+          "GBPUSD",
+          "GBPJPY",
+          "AUDUSD",
+          "GBPAUD",
+          "EURNZD"
+        ],
         "conditions": [
           {
             "type": "atr_trailing_bounce",
@@ -1582,7 +1823,7 @@
           "timeframe": "H1",
           "side": "low",
           "lookback": 20,
-          "atr_buffer": 1.0
+          "atr_buffer": 1.3
         },
         "tp": {
           "type": "rr",
@@ -1612,6 +1853,15 @@
         "blocked_regimes": [
           "ranging"
         ],
+        "recommended_pairs": [
+          "GOLD",
+          "EURUSD",
+          "GBPUSD",
+          "GBPJPY",
+          "AUDUSD",
+          "GBPAUD",
+          "EURNZD"
+        ],
         "conditions": [
           {
             "type": "atr_trailing_bounce",
@@ -1624,7 +1874,7 @@
           "timeframe": "H1",
           "side": "high",
           "lookback": 20,
-          "atr_buffer": 1.0
+          "atr_buffer": 1.3
         },
         "tp": {
           "type": "rr",
@@ -1654,6 +1904,12 @@
         "blocked_regimes": [
           "ranging"
         ],
+        "recommended_pairs": [
+          "GOLD",
+          "USDZAR",
+          "GBPJPY",
+          "EURUSD"
+        ],
         "conditions": [
           {
             "type": "donchian_breakout",
@@ -1666,7 +1922,7 @@
           "timeframe": "H4",
           "side": "low",
           "lookback": 20,
-          "atr_buffer": 1.0
+          "atr_buffer": 2.0
         },
         "tp": {
           "type": "rr",
@@ -1696,6 +1952,12 @@
         "blocked_regimes": [
           "ranging"
         ],
+        "recommended_pairs": [
+          "GOLD",
+          "USDZAR",
+          "GBPJPY",
+          "EURUSD"
+        ],
         "conditions": [
           {
             "type": "donchian_breakout",
@@ -1708,7 +1970,7 @@
           "timeframe": "H4",
           "side": "high",
           "lookback": 20,
-          "atr_buffer": 1.0
+          "atr_buffer": 2.0
         },
         "tp": {
           "type": "rr",
@@ -1738,6 +2000,13 @@
         "blocked_regimes": [
           "ranging"
         ],
+        "recommended_pairs": [
+          "EURUSD",
+          "GBPUSD",
+          "AUDUSD",
+          "USDCAD",
+          "GOLD"
+        ],
         "conditions": [
           {
             "type": "market_structure",
@@ -1756,7 +2025,7 @@
           "timeframe": "M15",
           "side": "low",
           "lookback": 20,
-          "atr_buffer": 1.0
+          "atr_buffer": 1.1
         },
         "tp": {
           "type": "rr",
@@ -1786,6 +2055,13 @@
         "blocked_regimes": [
           "ranging"
         ],
+        "recommended_pairs": [
+          "EURUSD",
+          "GBPUSD",
+          "AUDUSD",
+          "USDCAD",
+          "GOLD"
+        ],
         "conditions": [
           {
             "type": "market_structure",
@@ -1804,7 +2080,7 @@
           "timeframe": "M15",
           "side": "high",
           "lookback": 20,
-          "atr_buffer": 1.0
+          "atr_buffer": 1.1
         },
         "tp": {
           "type": "rr",
