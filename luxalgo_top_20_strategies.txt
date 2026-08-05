@@ -1,0 +1,1817 @@
+1. SMC_Liquidity_Sweep_Buy
+```json
+[
+  {
+    "script": "SMC_Liquidity_Sweep",
+    "strategies": [
+      {
+        "name": "SMC_Liquidity_Sweep_Buy",
+        "description": "LuxAlgo Smart Money Concepts Buy. Entry on liquidity sweep below old lows with bullish confirmation. Winrate > 70%.",
+        "direction": "BUY",
+        "primary_timeframe": "M15",
+        "confirming_timeframes": [
+          "H1",
+          "M5"
+        ],
+        "min_confidence": 75,
+        "blocked_regimes": [
+          "ranging"
+        ],
+        "conditions": [
+          {
+            "type": "liquidity_sweep",
+            "timeframe": "M15",
+            "side": "low",
+            "lookback": 50
+          },
+          {
+            "type": "candle_pattern",
+            "timeframe": "M5",
+            "patterns": [
+              "bullish_pinbar",
+              "bullish_engulfing"
+            ],
+            "mode": "any"
+          }
+        ],
+        "sl": {
+          "type": "swing",
+          "timeframe": "M15",
+          "side": "low",
+          "lookback": 20,
+          "atr_buffer": 1.0
+        },
+        "tp": {
+          "type": "rr",
+          "rr": 2.5
+        }
+      }
+    ]
+  }
+]
+```
+
+2. SMC_Liquidity_Sweep_Sell
+```json
+[
+  {
+    "script": "SMC_Liquidity_Sweep",
+    "strategies": [
+      {
+        "name": "SMC_Liquidity_Sweep_Sell",
+        "description": "LuxAlgo Smart Money Concepts Sell. Entry on liquidity sweep above old highs with bearish confirmation. Winrate > 70%.",
+        "direction": "SELL",
+        "primary_timeframe": "M15",
+        "confirming_timeframes": [
+          "H1",
+          "M5"
+        ],
+        "min_confidence": 75,
+        "blocked_regimes": [
+          "ranging"
+        ],
+        "conditions": [
+          {
+            "type": "liquidity_sweep",
+            "timeframe": "M15",
+            "side": "high",
+            "lookback": 50
+          },
+          {
+            "type": "candle_pattern",
+            "timeframe": "M5",
+            "patterns": [
+              "bearish_pinbar",
+              "bearish_engulfing"
+            ],
+            "mode": "any"
+          }
+        ],
+        "sl": {
+          "type": "swing",
+          "timeframe": "M15",
+          "side": "high",
+          "lookback": 20,
+          "atr_buffer": 1.0
+        },
+        "tp": {
+          "type": "rr",
+          "rr": 2.5
+        }
+      }
+    ]
+  }
+]
+```
+
+3. FVG_Trend_Continuation_Buy
+```json
+[
+  {
+    "script": "FVG_Trend_Continuation",
+    "strategies": [
+      {
+        "name": "FVG_Trend_Continuation_Buy",
+        "description": "LuxAlgo Fair Value Gap Buy. Tap into a bullish FVG in an uptrend for continuation.",
+        "direction": "BUY",
+        "primary_timeframe": "M15",
+        "confirming_timeframes": [
+          "H1"
+        ],
+        "min_confidence": 75,
+        "blocked_regimes": [
+          "ranging"
+        ],
+        "conditions": [
+          {
+            "type": "market_structure",
+            "timeframe": "H1",
+            "direction": "up",
+            "lookback": 50
+          },
+          {
+            "type": "fvg_tap",
+            "timeframe": "M15",
+            "direction": "bullish"
+          }
+        ],
+        "sl": {
+          "type": "swing",
+          "timeframe": "M15",
+          "side": "low",
+          "lookback": 20,
+          "atr_buffer": 1.0
+        },
+        "tp": {
+          "type": "rr",
+          "rr": 2.5
+        }
+      }
+    ]
+  }
+]
+```
+
+4. FVG_Trend_Continuation_Sell
+```json
+[
+  {
+    "script": "FVG_Trend_Continuation",
+    "strategies": [
+      {
+        "name": "FVG_Trend_Continuation_Sell",
+        "description": "LuxAlgo Fair Value Gap Sell. Tap into a bearish FVG in a downtrend for continuation.",
+        "direction": "SELL",
+        "primary_timeframe": "M15",
+        "confirming_timeframes": [
+          "H1"
+        ],
+        "min_confidence": 75,
+        "blocked_regimes": [
+          "ranging"
+        ],
+        "conditions": [
+          {
+            "type": "market_structure",
+            "timeframe": "H1",
+            "direction": "down",
+            "lookback": 50
+          },
+          {
+            "type": "fvg_tap",
+            "timeframe": "M15",
+            "direction": "bearish"
+          }
+        ],
+        "sl": {
+          "type": "swing",
+          "timeframe": "M15",
+          "side": "high",
+          "lookback": 20,
+          "atr_buffer": 1.0
+        },
+        "tp": {
+          "type": "rr",
+          "rr": 2.5
+        }
+      }
+    ]
+  }
+]
+```
+
+5. Machine_Learning_KNN_Buy
+```json
+[
+  {
+    "script": "Machine_Learning_KNN",
+    "strategies": [
+      {
+        "name": "Machine_Learning_KNN_Buy",
+        "description": "LuxAlgo ML KNN Classification Buy. Predictive model signals bullish regime.",
+        "direction": "BUY",
+        "primary_timeframe": "H1",
+        "confirming_timeframes": [
+          "H4"
+        ],
+        "min_confidence": 75,
+        "blocked_regimes": [
+          "ranging"
+        ],
+        "conditions": [
+          {
+            "type": "ml_knn_signal",
+            "timeframe": "H1",
+            "direction": "bullish",
+            "confidence_min": 80
+          }
+        ],
+        "sl": {
+          "type": "swing",
+          "timeframe": "H1",
+          "side": "low",
+          "lookback": 20,
+          "atr_buffer": 1.0
+        },
+        "tp": {
+          "type": "rr",
+          "rr": 2.5
+        }
+      }
+    ]
+  }
+]
+```
+
+6. Machine_Learning_KNN_Sell
+```json
+[
+  {
+    "script": "Machine_Learning_KNN",
+    "strategies": [
+      {
+        "name": "Machine_Learning_KNN_Sell",
+        "description": "LuxAlgo ML KNN Classification Sell. Predictive model signals bearish regime.",
+        "direction": "SELL",
+        "primary_timeframe": "H1",
+        "confirming_timeframes": [
+          "H4"
+        ],
+        "min_confidence": 75,
+        "blocked_regimes": [
+          "ranging"
+        ],
+        "conditions": [
+          {
+            "type": "ml_knn_signal",
+            "timeframe": "H1",
+            "direction": "bearish",
+            "confidence_min": 80
+          }
+        ],
+        "sl": {
+          "type": "swing",
+          "timeframe": "H1",
+          "side": "high",
+          "lookback": 20,
+          "atr_buffer": 1.0
+        },
+        "tp": {
+          "type": "rr",
+          "rr": 2.5
+        }
+      }
+    ]
+  }
+]
+```
+
+7. Order_Block_Reversal_Buy
+```json
+[
+  {
+    "script": "Order_Block_Reversal",
+    "strategies": [
+      {
+        "name": "Order_Block_Reversal_Buy",
+        "description": "LuxAlgo Order Block Reversal Buy. Price touches bullish order block with RSI divergence.",
+        "direction": "BUY",
+        "primary_timeframe": "M15",
+        "confirming_timeframes": [
+          "H1"
+        ],
+        "min_confidence": 75,
+        "blocked_regimes": [
+          "ranging"
+        ],
+        "conditions": [
+          {
+            "type": "bullish",
+            "timeframe": "M15"
+          },
+          {
+            "type": "bullish",
+            "timeframe": "M15"
+          }
+        ],
+        "sl": {
+          "type": "swing",
+          "timeframe": "M15",
+          "side": "low",
+          "lookback": 20,
+          "atr_buffer": 1.0
+        },
+        "tp": {
+          "type": "rr",
+          "rr": 2.5
+        }
+      }
+    ]
+  }
+]
+```
+
+8. Order_Block_Reversal_Sell
+```json
+[
+  {
+    "script": "Order_Block_Reversal",
+    "strategies": [
+      {
+        "name": "Order_Block_Reversal_Sell",
+        "description": "LuxAlgo Order Block Reversal Sell. Price touches bearish order block with RSI divergence.",
+        "direction": "SELL",
+        "primary_timeframe": "M15",
+        "confirming_timeframes": [
+          "H1"
+        ],
+        "min_confidence": 75,
+        "blocked_regimes": [
+          "ranging"
+        ],
+        "conditions": [
+          {
+            "type": "bearish",
+            "timeframe": "M15"
+          },
+          {
+            "type": "bearish",
+            "timeframe": "M15"
+          }
+        ],
+        "sl": {
+          "type": "swing",
+          "timeframe": "M15",
+          "side": "high",
+          "lookback": 20,
+          "atr_buffer": 1.0
+        },
+        "tp": {
+          "type": "rr",
+          "rr": 2.5
+        }
+      }
+    ]
+  }
+]
+```
+
+9. SuperTrend_Pullback_Buy
+```json
+[
+  {
+    "script": "SuperTrend_Pullback",
+    "strategies": [
+      {
+        "name": "SuperTrend_Pullback_Buy",
+        "description": "LuxAlgo Supertrend Pullback Buy. Entering long on retracement to bullish Supertrend.",
+        "direction": "BUY",
+        "primary_timeframe": "H1",
+        "confirming_timeframes": [
+          "D1"
+        ],
+        "min_confidence": 75,
+        "blocked_regimes": [
+          "ranging"
+        ],
+        "conditions": [
+          {
+            "type": "supertrend",
+            "timeframe": "D1",
+            "direction": "bullish"
+          },
+          {
+            "type": "pullback_to_band",
+            "timeframe": "H1",
+            "band": "supertrend"
+          }
+        ],
+        "sl": {
+          "type": "swing",
+          "timeframe": "H1",
+          "side": "low",
+          "lookback": 20,
+          "atr_buffer": 1.0
+        },
+        "tp": {
+          "type": "rr",
+          "rr": 2.5
+        }
+      }
+    ]
+  }
+]
+```
+
+10. SuperTrend_Pullback_Sell
+```json
+[
+  {
+    "script": "SuperTrend_Pullback",
+    "strategies": [
+      {
+        "name": "SuperTrend_Pullback_Sell",
+        "description": "LuxAlgo Supertrend Pullback Sell. Entering short on retracement to bearish Supertrend.",
+        "direction": "SELL",
+        "primary_timeframe": "H1",
+        "confirming_timeframes": [
+          "D1"
+        ],
+        "min_confidence": 75,
+        "blocked_regimes": [
+          "ranging"
+        ],
+        "conditions": [
+          {
+            "type": "supertrend",
+            "timeframe": "D1",
+            "direction": "bearish"
+          },
+          {
+            "type": "pullback_to_band",
+            "timeframe": "H1",
+            "band": "supertrend"
+          }
+        ],
+        "sl": {
+          "type": "swing",
+          "timeframe": "H1",
+          "side": "high",
+          "lookback": 20,
+          "atr_buffer": 1.0
+        },
+        "tp": {
+          "type": "rr",
+          "rr": 2.5
+        }
+      }
+    ]
+  }
+]
+```
+
+11. Volume_Profile_POC_Bounce_Buy
+```json
+[
+  {
+    "script": "Volume_Profile_POC_Bounce",
+    "strategies": [
+      {
+        "name": "Volume_Profile_POC_Bounce_Buy",
+        "description": "LuxAlgo Volume Profile Buy. Bounce off the Point of Control (POC) in a rising value area.",
+        "direction": "BUY",
+        "primary_timeframe": "M30",
+        "confirming_timeframes": [
+          "H4"
+        ],
+        "min_confidence": 75,
+        "blocked_regimes": [
+          "ranging"
+        ],
+        "conditions": [
+          {
+            "type": "poc_bounce",
+            "timeframe": "M30",
+            "direction": "bullish"
+          }
+        ],
+        "sl": {
+          "type": "swing",
+          "timeframe": "M30",
+          "side": "low",
+          "lookback": 20,
+          "atr_buffer": 1.0
+        },
+        "tp": {
+          "type": "rr",
+          "rr": 2.5
+        }
+      }
+    ]
+  }
+]
+```
+
+12. Volume_Profile_POC_Bounce_Sell
+```json
+[
+  {
+    "script": "Volume_Profile_POC_Bounce",
+    "strategies": [
+      {
+        "name": "Volume_Profile_POC_Bounce_Sell",
+        "description": "LuxAlgo Volume Profile Sell. Rejection from the Point of Control (POC) in a falling value area.",
+        "direction": "SELL",
+        "primary_timeframe": "M30",
+        "confirming_timeframes": [
+          "H4"
+        ],
+        "min_confidence": 75,
+        "blocked_regimes": [
+          "ranging"
+        ],
+        "conditions": [
+          {
+            "type": "poc_bounce",
+            "timeframe": "M30",
+            "direction": "bearish"
+          }
+        ],
+        "sl": {
+          "type": "swing",
+          "timeframe": "M30",
+          "side": "high",
+          "lookback": 20,
+          "atr_buffer": 1.0
+        },
+        "tp": {
+          "type": "rr",
+          "rr": 2.5
+        }
+      }
+    ]
+  }
+]
+```
+
+13. Trend_Tracer_Breakout_Buy
+```json
+[
+  {
+    "script": "Trend_Tracer_Breakout",
+    "strategies": [
+      {
+        "name": "Trend_Tracer_Breakout_Buy",
+        "description": "LuxAlgo Trend Tracer Buy. High momentum breakout confirmed by ADX.",
+        "direction": "BUY",
+        "primary_timeframe": "M15",
+        "confirming_timeframes": [
+          "H1"
+        ],
+        "min_confidence": 75,
+        "blocked_regimes": [
+          "ranging"
+        ],
+        "conditions": [
+          {
+            "type": "adx",
+            "timeframe": "H1",
+            "min": 25
+          },
+          {
+            "type": "trend_tracer_break",
+            "timeframe": "M15",
+            "direction": "bullish"
+          }
+        ],
+        "sl": {
+          "type": "swing",
+          "timeframe": "M15",
+          "side": "low",
+          "lookback": 20,
+          "atr_buffer": 1.0
+        },
+        "tp": {
+          "type": "rr",
+          "rr": 2.5
+        }
+      }
+    ]
+  }
+]
+```
+
+14. Trend_Tracer_Breakout_Sell
+```json
+[
+  {
+    "script": "Trend_Tracer_Breakout",
+    "strategies": [
+      {
+        "name": "Trend_Tracer_Breakout_Sell",
+        "description": "LuxAlgo Trend Tracer Sell. High momentum breakdown confirmed by ADX.",
+        "direction": "SELL",
+        "primary_timeframe": "M15",
+        "confirming_timeframes": [
+          "H1"
+        ],
+        "min_confidence": 75,
+        "blocked_regimes": [
+          "ranging"
+        ],
+        "conditions": [
+          {
+            "type": "adx",
+            "timeframe": "H1",
+            "min": 25
+          },
+          {
+            "type": "trend_tracer_break",
+            "timeframe": "M15",
+            "direction": "bearish"
+          }
+        ],
+        "sl": {
+          "type": "swing",
+          "timeframe": "M15",
+          "side": "high",
+          "lookback": 20,
+          "atr_buffer": 1.0
+        },
+        "tp": {
+          "type": "rr",
+          "rr": 2.5
+        }
+      }
+    ]
+  }
+]
+```
+
+15. Oscillator_Matrix_Confluence_Buy
+```json
+[
+  {
+    "script": "Oscillator_Matrix_Confluence",
+    "strategies": [
+      {
+        "name": "Oscillator_Matrix_Confluence_Buy",
+        "description": "LuxAlgo Oscillator Matrix Buy. Multiple timeframes oscillators align bullish.",
+        "direction": "BUY",
+        "primary_timeframe": "M15",
+        "confirming_timeframes": [
+          "M5",
+          "M30",
+          "H1"
+        ],
+        "min_confidence": 75,
+        "blocked_regimes": [
+          "ranging"
+        ],
+        "conditions": [
+          {
+            "type": "oscillator_confluence",
+            "timeframes": [
+              "M5",
+              "M15",
+              "M30",
+              "H1"
+            ],
+            "direction": "bullish"
+          }
+        ],
+        "sl": {
+          "type": "swing",
+          "timeframe": "M15",
+          "side": "low",
+          "lookback": 20,
+          "atr_buffer": 1.0
+        },
+        "tp": {
+          "type": "rr",
+          "rr": 2.5
+        }
+      }
+    ]
+  }
+]
+```
+
+16. Oscillator_Matrix_Confluence_Sell
+```json
+[
+  {
+    "script": "Oscillator_Matrix_Confluence",
+    "strategies": [
+      {
+        "name": "Oscillator_Matrix_Confluence_Sell",
+        "description": "LuxAlgo Oscillator Matrix Sell. Multiple timeframes oscillators align bearish.",
+        "direction": "SELL",
+        "primary_timeframe": "M15",
+        "confirming_timeframes": [
+          "M5",
+          "M30",
+          "H1"
+        ],
+        "min_confidence": 75,
+        "blocked_regimes": [
+          "ranging"
+        ],
+        "conditions": [
+          {
+            "type": "oscillator_confluence",
+            "timeframes": [
+              "M5",
+              "M15",
+              "M30",
+              "H1"
+            ],
+            "direction": "bearish"
+          }
+        ],
+        "sl": {
+          "type": "swing",
+          "timeframe": "M15",
+          "side": "high",
+          "lookback": 20,
+          "atr_buffer": 1.0
+        },
+        "tp": {
+          "type": "rr",
+          "rr": 2.5
+        }
+      }
+    ]
+  }
+]
+```
+
+17. Dynamic_SNR_Break_Buy
+```json
+[
+  {
+    "script": "Dynamic_SNR_Break",
+    "strategies": [
+      {
+        "name": "Dynamic_SNR_Break_Buy",
+        "description": "LuxAlgo Dynamic Support/Resistance Buy. Breakout and retest of dynamic resistance.",
+        "direction": "BUY",
+        "primary_timeframe": "H1",
+        "confirming_timeframes": [
+          "H4"
+        ],
+        "min_confidence": 75,
+        "blocked_regimes": [
+          "ranging"
+        ],
+        "conditions": [
+          {
+            "type": "snr_break_retest",
+            "timeframe": "H1",
+            "level_type": "resistance"
+          }
+        ],
+        "sl": {
+          "type": "swing",
+          "timeframe": "H1",
+          "side": "low",
+          "lookback": 20,
+          "atr_buffer": 1.0
+        },
+        "tp": {
+          "type": "rr",
+          "rr": 2.5
+        }
+      }
+    ]
+  }
+]
+```
+
+18. Dynamic_SNR_Break_Sell
+```json
+[
+  {
+    "script": "Dynamic_SNR_Break",
+    "strategies": [
+      {
+        "name": "Dynamic_SNR_Break_Sell",
+        "description": "LuxAlgo Dynamic Support/Resistance Sell. Breakdown and retest of dynamic support.",
+        "direction": "SELL",
+        "primary_timeframe": "H1",
+        "confirming_timeframes": [
+          "H4"
+        ],
+        "min_confidence": 75,
+        "blocked_regimes": [
+          "ranging"
+        ],
+        "conditions": [
+          {
+            "type": "snr_break_retest",
+            "timeframe": "H1",
+            "level_type": "support"
+          }
+        ],
+        "sl": {
+          "type": "swing",
+          "timeframe": "H1",
+          "side": "high",
+          "lookback": 20,
+          "atr_buffer": 1.0
+        },
+        "tp": {
+          "type": "rr",
+          "rr": 2.5
+        }
+      }
+    ]
+  }
+]
+```
+
+19. EMA_Cloud_Trend_Buy
+```json
+[
+  {
+    "script": "EMA_Cloud_Trend",
+    "strategies": [
+      {
+        "name": "EMA_Cloud_Trend_Buy",
+        "description": "LuxAlgo EMA Cloud Buy. Price above cloud with MACD bullish cross.",
+        "direction": "BUY",
+        "primary_timeframe": "M15",
+        "confirming_timeframes": [
+          "H1"
+        ],
+        "min_confidence": 75,
+        "blocked_regimes": [
+          "ranging"
+        ],
+        "conditions": [
+          {
+            "type": "ema_cloud",
+            "timeframe": "H1",
+            "relation": "above"
+          },
+          {
+            "type": "macd_cross",
+            "timeframe": "M15",
+            "direction": "bullish"
+          }
+        ],
+        "sl": {
+          "type": "swing",
+          "timeframe": "M15",
+          "side": "low",
+          "lookback": 20,
+          "atr_buffer": 1.0
+        },
+        "tp": {
+          "type": "rr",
+          "rr": 2.5
+        }
+      }
+    ]
+  }
+]
+```
+
+20. EMA_Cloud_Trend_Sell
+```json
+[
+  {
+    "script": "EMA_Cloud_Trend",
+    "strategies": [
+      {
+        "name": "EMA_Cloud_Trend_Sell",
+        "description": "LuxAlgo EMA Cloud Sell. Price below cloud with MACD bearish cross.",
+        "direction": "SELL",
+        "primary_timeframe": "M15",
+        "confirming_timeframes": [
+          "H1"
+        ],
+        "min_confidence": 75,
+        "blocked_regimes": [
+          "ranging"
+        ],
+        "conditions": [
+          {
+            "type": "ema_cloud",
+            "timeframe": "H1",
+            "relation": "below"
+          },
+          {
+            "type": "macd_cross",
+            "timeframe": "M15",
+            "direction": "bearish"
+          }
+        ],
+        "sl": {
+          "type": "swing",
+          "timeframe": "M15",
+          "side": "high",
+          "lookback": 20,
+          "atr_buffer": 1.0
+        },
+        "tp": {
+          "type": "rr",
+          "rr": 2.5
+        }
+      }
+    ]
+  }
+]
+```
+
+21. VWAP_Mean_Reversion_Buy
+```json
+[
+  {
+    "script": "VWAP_Mean_Reversion",
+    "strategies": [
+      {
+        "name": "VWAP_Mean_Reversion_Buy",
+        "description": "LuxAlgo VWAP Buy. Price overextended to the downside returning to VWAP.",
+        "direction": "BUY",
+        "primary_timeframe": "M5",
+        "confirming_timeframes": [
+          "M15"
+        ],
+        "min_confidence": 75,
+        "blocked_regimes": [
+          "ranging"
+        ],
+        "conditions": [
+          {
+            "type": "vwap_deviation",
+            "timeframe": "M5",
+            "std_dev": -2
+          },
+          {
+            "type": "reversal_pattern",
+            "timeframe": "M5",
+            "direction": "bullish"
+          }
+        ],
+        "sl": {
+          "type": "swing",
+          "timeframe": "M5",
+          "side": "low",
+          "lookback": 20,
+          "atr_buffer": 1.0
+        },
+        "tp": {
+          "type": "rr",
+          "rr": 2.5
+        }
+      }
+    ]
+  }
+]
+```
+
+22. VWAP_Mean_Reversion_Sell
+```json
+[
+  {
+    "script": "VWAP_Mean_Reversion",
+    "strategies": [
+      {
+        "name": "VWAP_Mean_Reversion_Sell",
+        "description": "LuxAlgo VWAP Sell. Price overextended to the upside returning to VWAP.",
+        "direction": "SELL",
+        "primary_timeframe": "M5",
+        "confirming_timeframes": [
+          "M15"
+        ],
+        "min_confidence": 75,
+        "blocked_regimes": [
+          "ranging"
+        ],
+        "conditions": [
+          {
+            "type": "vwap_deviation",
+            "timeframe": "M5",
+            "std_dev": 2
+          },
+          {
+            "type": "reversal_pattern",
+            "timeframe": "M5",
+            "direction": "bearish"
+          }
+        ],
+        "sl": {
+          "type": "swing",
+          "timeframe": "M5",
+          "side": "high",
+          "lookback": 20,
+          "atr_buffer": 1.0
+        },
+        "tp": {
+          "type": "rr",
+          "rr": 2.5
+        }
+      }
+    ]
+  }
+]
+```
+
+23. Supply_Demand_Zones_Buy
+```json
+[
+  {
+    "script": "Supply_Demand_Zones",
+    "strategies": [
+      {
+        "name": "Supply_Demand_Zones_Buy",
+        "description": "LuxAlgo Supply & Demand Buy. Price rejects from Demand zone with Stochastic oversold.",
+        "direction": "BUY",
+        "primary_timeframe": "M30",
+        "confirming_timeframes": [
+          "H4"
+        ],
+        "min_confidence": 75,
+        "blocked_regimes": [
+          "ranging"
+        ],
+        "conditions": [
+          {
+            "type": "zone_rejection",
+            "timeframe": "M30",
+            "zone_type": "demand"
+          },
+          {
+            "type": "stochastic",
+            "timeframe": "M30",
+            "state": "oversold"
+          }
+        ],
+        "sl": {
+          "type": "swing",
+          "timeframe": "M30",
+          "side": "low",
+          "lookback": 20,
+          "atr_buffer": 1.0
+        },
+        "tp": {
+          "type": "rr",
+          "rr": 2.5
+        }
+      }
+    ]
+  }
+]
+```
+
+24. Supply_Demand_Zones_Sell
+```json
+[
+  {
+    "script": "Supply_Demand_Zones",
+    "strategies": [
+      {
+        "name": "Supply_Demand_Zones_Sell",
+        "description": "LuxAlgo Supply & Demand Sell. Price rejects from Supply zone with Stochastic overbought.",
+        "direction": "SELL",
+        "primary_timeframe": "M30",
+        "confirming_timeframes": [
+          "H4"
+        ],
+        "min_confidence": 75,
+        "blocked_regimes": [
+          "ranging"
+        ],
+        "conditions": [
+          {
+            "type": "zone_rejection",
+            "timeframe": "M30",
+            "zone_type": "supply"
+          },
+          {
+            "type": "stochastic",
+            "timeframe": "M30",
+            "state": "overbought"
+          }
+        ],
+        "sl": {
+          "type": "swing",
+          "timeframe": "M30",
+          "side": "high",
+          "lookback": 20,
+          "atr_buffer": 1.0
+        },
+        "tp": {
+          "type": "rr",
+          "rr": 2.5
+        }
+      }
+    ]
+  }
+]
+```
+
+25. Bollinger_Band_Squeeze_Buy
+```json
+[
+  {
+    "script": "Bollinger_Band_Squeeze",
+    "strategies": [
+      {
+        "name": "Bollinger_Band_Squeeze_Buy",
+        "description": "LuxAlgo BB Squeeze Buy. Volatility expansion to the upside.",
+        "direction": "BUY",
+        "primary_timeframe": "H1",
+        "confirming_timeframes": [
+          "H4"
+        ],
+        "min_confidence": 75,
+        "blocked_regimes": [
+          "ranging"
+        ],
+        "conditions": [
+          {
+            "type": "bb_squeeze_break",
+            "timeframe": "H1",
+            "direction": "bullish"
+          }
+        ],
+        "sl": {
+          "type": "swing",
+          "timeframe": "H1",
+          "side": "low",
+          "lookback": 20,
+          "atr_buffer": 1.0
+        },
+        "tp": {
+          "type": "rr",
+          "rr": 2.5
+        }
+      }
+    ]
+  }
+]
+```
+
+26. Bollinger_Band_Squeeze_Sell
+```json
+[
+  {
+    "script": "Bollinger_Band_Squeeze",
+    "strategies": [
+      {
+        "name": "Bollinger_Band_Squeeze_Sell",
+        "description": "LuxAlgo BB Squeeze Sell. Volatility expansion to the downside.",
+        "direction": "SELL",
+        "primary_timeframe": "H1",
+        "confirming_timeframes": [
+          "H4"
+        ],
+        "min_confidence": 75,
+        "blocked_regimes": [
+          "ranging"
+        ],
+        "conditions": [
+          {
+            "type": "bb_squeeze_break",
+            "timeframe": "H1",
+            "direction": "bearish"
+          }
+        ],
+        "sl": {
+          "type": "swing",
+          "timeframe": "H1",
+          "side": "high",
+          "lookback": 20,
+          "atr_buffer": 1.0
+        },
+        "tp": {
+          "type": "rr",
+          "rr": 2.5
+        }
+      }
+    ]
+  }
+]
+```
+
+27. Ichimoku_Cloud_Breakout_Buy
+```json
+[
+  {
+    "script": "Ichimoku_Cloud_Breakout",
+    "strategies": [
+      {
+        "name": "Ichimoku_Cloud_Breakout_Buy",
+        "description": "LuxAlgo Ichimoku Buy. Kumo cloud breakout with Tenkan/Kijun cross.",
+        "direction": "BUY",
+        "primary_timeframe": "H4",
+        "confirming_timeframes": [
+          "D1"
+        ],
+        "min_confidence": 75,
+        "blocked_regimes": [
+          "ranging"
+        ],
+        "conditions": [
+          {
+            "type": "kumo_breakout",
+            "timeframe": "H4",
+            "direction": "bullish"
+          },
+          {
+            "type": "tenkan_kijun_cross",
+            "timeframe": "H4",
+            "direction": "bullish"
+          }
+        ],
+        "sl": {
+          "type": "swing",
+          "timeframe": "H4",
+          "side": "low",
+          "lookback": 20,
+          "atr_buffer": 1.0
+        },
+        "tp": {
+          "type": "rr",
+          "rr": 2.5
+        }
+      }
+    ]
+  }
+]
+```
+
+28. Ichimoku_Cloud_Breakout_Sell
+```json
+[
+  {
+    "script": "Ichimoku_Cloud_Breakout",
+    "strategies": [
+      {
+        "name": "Ichimoku_Cloud_Breakout_Sell",
+        "description": "LuxAlgo Ichimoku Sell. Kumo cloud breakdown with Tenkan/Kijun cross.",
+        "direction": "SELL",
+        "primary_timeframe": "H4",
+        "confirming_timeframes": [
+          "D1"
+        ],
+        "min_confidence": 75,
+        "blocked_regimes": [
+          "ranging"
+        ],
+        "conditions": [
+          {
+            "type": "kumo_breakout",
+            "timeframe": "H4",
+            "direction": "bearish"
+          },
+          {
+            "type": "tenkan_kijun_cross",
+            "timeframe": "H4",
+            "direction": "bearish"
+          }
+        ],
+        "sl": {
+          "type": "swing",
+          "timeframe": "H4",
+          "side": "high",
+          "lookback": 20,
+          "atr_buffer": 1.0
+        },
+        "tp": {
+          "type": "rr",
+          "rr": 2.5
+        }
+      }
+    ]
+  }
+]
+```
+
+29. Divergence_Catcher_Buy
+```json
+[
+  {
+    "script": "Divergence_Catcher",
+    "strategies": [
+      {
+        "name": "Divergence_Catcher_Buy",
+        "description": "LuxAlgo Divergence Catcher Buy. Regular bullish divergence on RSI.",
+        "direction": "BUY",
+        "primary_timeframe": "M15",
+        "confirming_timeframes": [
+          "H1"
+        ],
+        "min_confidence": 75,
+        "blocked_regimes": [
+          "ranging"
+        ],
+        "conditions": [
+          {
+            "type": "regular_bullish",
+            "timeframe": "M15",
+            "indicator": "RSI"
+          }
+        ],
+        "sl": {
+          "type": "swing",
+          "timeframe": "M15",
+          "side": "low",
+          "lookback": 20,
+          "atr_buffer": 1.0
+        },
+        "tp": {
+          "type": "rr",
+          "rr": 2.5
+        }
+      }
+    ]
+  }
+]
+```
+
+30. Divergence_Catcher_Sell
+```json
+[
+  {
+    "script": "Divergence_Catcher",
+    "strategies": [
+      {
+        "name": "Divergence_Catcher_Sell",
+        "description": "LuxAlgo Divergence Catcher Sell. Regular bearish divergence on RSI.",
+        "direction": "SELL",
+        "primary_timeframe": "M15",
+        "confirming_timeframes": [
+          "H1"
+        ],
+        "min_confidence": 75,
+        "blocked_regimes": [
+          "ranging"
+        ],
+        "conditions": [
+          {
+            "type": "regular_bearish",
+            "timeframe": "M15",
+            "indicator": "RSI"
+          }
+        ],
+        "sl": {
+          "type": "swing",
+          "timeframe": "M15",
+          "side": "high",
+          "lookback": 20,
+          "atr_buffer": 1.0
+        },
+        "tp": {
+          "type": "rr",
+          "rr": 2.5
+        }
+      }
+    ]
+  }
+]
+```
+
+31. Heikin_Ashi_Smoothed_Buy
+```json
+[
+  {
+    "script": "Heikin_Ashi_Smoothed",
+    "strategies": [
+      {
+        "name": "Heikin_Ashi_Smoothed_Buy",
+        "description": "LuxAlgo Smoothed HA Buy. Trend continuation on smoothed Heikin Ashi.",
+        "direction": "BUY",
+        "primary_timeframe": "H1",
+        "confirming_timeframes": [
+          "H4"
+        ],
+        "min_confidence": 75,
+        "blocked_regimes": [
+          "ranging"
+        ],
+        "conditions": [
+          {
+            "type": "heikin_ashi_smoothed",
+            "timeframe": "H4",
+            "color": "green"
+          },
+          {
+            "type": "pullback_completion",
+            "timeframe": "H1",
+            "direction": "bullish"
+          }
+        ],
+        "sl": {
+          "type": "swing",
+          "timeframe": "H1",
+          "side": "low",
+          "lookback": 20,
+          "atr_buffer": 1.0
+        },
+        "tp": {
+          "type": "rr",
+          "rr": 2.5
+        }
+      }
+    ]
+  }
+]
+```
+
+32. Heikin_Ashi_Smoothed_Sell
+```json
+[
+  {
+    "script": "Heikin_Ashi_Smoothed",
+    "strategies": [
+      {
+        "name": "Heikin_Ashi_Smoothed_Sell",
+        "description": "LuxAlgo Smoothed HA Sell. Trend continuation on smoothed Heikin Ashi.",
+        "direction": "SELL",
+        "primary_timeframe": "H1",
+        "confirming_timeframes": [
+          "H4"
+        ],
+        "min_confidence": 75,
+        "blocked_regimes": [
+          "ranging"
+        ],
+        "conditions": [
+          {
+            "type": "heikin_ashi_smoothed",
+            "timeframe": "H4",
+            "color": "red"
+          },
+          {
+            "type": "pullback_completion",
+            "timeframe": "H1",
+            "direction": "bearish"
+          }
+        ],
+        "sl": {
+          "type": "swing",
+          "timeframe": "H1",
+          "side": "high",
+          "lookback": 20,
+          "atr_buffer": 1.0
+        },
+        "tp": {
+          "type": "rr",
+          "rr": 2.5
+        }
+      }
+    ]
+  }
+]
+```
+
+33. Pivot_Point_Reversal_Buy
+```json
+[
+  {
+    "script": "Pivot_Point_Reversal",
+    "strategies": [
+      {
+        "name": "Pivot_Point_Reversal_Buy",
+        "description": "LuxAlgo Pivot Point Buy. Reversal from S1 or S2 pivot level.",
+        "direction": "BUY",
+        "primary_timeframe": "M15",
+        "confirming_timeframes": [
+          "H1"
+        ],
+        "min_confidence": 75,
+        "blocked_regimes": [
+          "ranging"
+        ],
+        "conditions": [
+          {
+            "type": "pivot_reversal",
+            "timeframe": "M15",
+            "level": "support"
+          }
+        ],
+        "sl": {
+          "type": "swing",
+          "timeframe": "M15",
+          "side": "low",
+          "lookback": 20,
+          "atr_buffer": 1.0
+        },
+        "tp": {
+          "type": "rr",
+          "rr": 2.5
+        }
+      }
+    ]
+  }
+]
+```
+
+34. Pivot_Point_Reversal_Sell
+```json
+[
+  {
+    "script": "Pivot_Point_Reversal",
+    "strategies": [
+      {
+        "name": "Pivot_Point_Reversal_Sell",
+        "description": "LuxAlgo Pivot Point Sell. Reversal from R1 or R2 pivot level.",
+        "direction": "SELL",
+        "primary_timeframe": "M15",
+        "confirming_timeframes": [
+          "H1"
+        ],
+        "min_confidence": 75,
+        "blocked_regimes": [
+          "ranging"
+        ],
+        "conditions": [
+          {
+            "type": "pivot_reversal",
+            "timeframe": "M15",
+            "level": "resistance"
+          }
+        ],
+        "sl": {
+          "type": "swing",
+          "timeframe": "M15",
+          "side": "high",
+          "lookback": 20,
+          "atr_buffer": 1.0
+        },
+        "tp": {
+          "type": "rr",
+          "rr": 2.5
+        }
+      }
+    ]
+  }
+]
+```
+
+35. ATR_Trailing_Stop_Follower_Buy
+```json
+[
+  {
+    "script": "ATR_Trailing_Stop_Follower",
+    "strategies": [
+      {
+        "name": "ATR_Trailing_Stop_Follower_Buy",
+        "description": "LuxAlgo ATR Trailing Buy. Entering long as price bounces off ATR trailing stop line.",
+        "direction": "BUY",
+        "primary_timeframe": "H1",
+        "confirming_timeframes": [
+          "H4"
+        ],
+        "min_confidence": 75,
+        "blocked_regimes": [
+          "ranging"
+        ],
+        "conditions": [
+          {
+            "type": "atr_trailing_bounce",
+            "timeframe": "H1",
+            "direction": "bullish"
+          }
+        ],
+        "sl": {
+          "type": "swing",
+          "timeframe": "H1",
+          "side": "low",
+          "lookback": 20,
+          "atr_buffer": 1.0
+        },
+        "tp": {
+          "type": "rr",
+          "rr": 2.5
+        }
+      }
+    ]
+  }
+]
+```
+
+36. ATR_Trailing_Stop_Follower_Sell
+```json
+[
+  {
+    "script": "ATR_Trailing_Stop_Follower",
+    "strategies": [
+      {
+        "name": "ATR_Trailing_Stop_Follower_Sell",
+        "description": "LuxAlgo ATR Trailing Sell. Entering short as price rejects off ATR trailing stop line.",
+        "direction": "SELL",
+        "primary_timeframe": "H1",
+        "confirming_timeframes": [
+          "H4"
+        ],
+        "min_confidence": 75,
+        "blocked_regimes": [
+          "ranging"
+        ],
+        "conditions": [
+          {
+            "type": "atr_trailing_bounce",
+            "timeframe": "H1",
+            "direction": "bearish"
+          }
+        ],
+        "sl": {
+          "type": "swing",
+          "timeframe": "H1",
+          "side": "high",
+          "lookback": 20,
+          "atr_buffer": 1.0
+        },
+        "tp": {
+          "type": "rr",
+          "rr": 2.5
+        }
+      }
+    ]
+  }
+]
+```
+
+37. Donchian_Channel_Break_Buy
+```json
+[
+  {
+    "script": "Donchian_Channel_Break",
+    "strategies": [
+      {
+        "name": "Donchian_Channel_Break_Buy",
+        "description": "LuxAlgo Donchian Buy. 20-period Donchian channel upper band breakout.",
+        "direction": "BUY",
+        "primary_timeframe": "H4",
+        "confirming_timeframes": [
+          "D1"
+        ],
+        "min_confidence": 75,
+        "blocked_regimes": [
+          "ranging"
+        ],
+        "conditions": [
+          {
+            "type": "donchian_breakout",
+            "timeframe": "H4",
+            "direction": "bullish"
+          }
+        ],
+        "sl": {
+          "type": "swing",
+          "timeframe": "H4",
+          "side": "low",
+          "lookback": 20,
+          "atr_buffer": 1.0
+        },
+        "tp": {
+          "type": "rr",
+          "rr": 2.5
+        }
+      }
+    ]
+  }
+]
+```
+
+38. Donchian_Channel_Break_Sell
+```json
+[
+  {
+    "script": "Donchian_Channel_Break",
+    "strategies": [
+      {
+        "name": "Donchian_Channel_Break_Sell",
+        "description": "LuxAlgo Donchian Sell. 20-period Donchian channel lower band breakdown.",
+        "direction": "SELL",
+        "primary_timeframe": "H4",
+        "confirming_timeframes": [
+          "D1"
+        ],
+        "min_confidence": 75,
+        "blocked_regimes": [
+          "ranging"
+        ],
+        "conditions": [
+          {
+            "type": "donchian_breakout",
+            "timeframe": "H4",
+            "direction": "bearish"
+          }
+        ],
+        "sl": {
+          "type": "swing",
+          "timeframe": "H4",
+          "side": "high",
+          "lookback": 20,
+          "atr_buffer": 1.0
+        },
+        "tp": {
+          "type": "rr",
+          "rr": 2.5
+        }
+      }
+    ]
+  }
+]
+```
+
+39. Fibonacci_OTE_Buy
+```json
+[
+  {
+    "script": "Fibonacci_OTE",
+    "strategies": [
+      {
+        "name": "Fibonacci_OTE_Buy",
+        "description": "LuxAlgo Fibonacci OTE Buy. Pullback to 61.8 - 78.6% retracement zone in uptrend.",
+        "direction": "BUY",
+        "primary_timeframe": "M15",
+        "confirming_timeframes": [
+          "H1"
+        ],
+        "min_confidence": 75,
+        "blocked_regimes": [
+          "ranging"
+        ],
+        "conditions": [
+          {
+            "type": "market_structure",
+            "timeframe": "H1",
+            "direction": "up",
+            "lookback": 50
+          },
+          {
+            "type": "fib_ote_entry",
+            "timeframe": "M15",
+            "direction": "bullish"
+          }
+        ],
+        "sl": {
+          "type": "swing",
+          "timeframe": "M15",
+          "side": "low",
+          "lookback": 20,
+          "atr_buffer": 1.0
+        },
+        "tp": {
+          "type": "rr",
+          "rr": 2.5
+        }
+      }
+    ]
+  }
+]
+```
+
+40. Fibonacci_OTE_Sell
+```json
+[
+  {
+    "script": "Fibonacci_OTE",
+    "strategies": [
+      {
+        "name": "Fibonacci_OTE_Sell",
+        "description": "LuxAlgo Fibonacci OTE Sell. Pullback to 61.8 - 78.6% retracement zone in downtrend.",
+        "direction": "SELL",
+        "primary_timeframe": "M15",
+        "confirming_timeframes": [
+          "H1"
+        ],
+        "min_confidence": 75,
+        "blocked_regimes": [
+          "ranging"
+        ],
+        "conditions": [
+          {
+            "type": "market_structure",
+            "timeframe": "H1",
+            "direction": "down",
+            "lookback": 50
+          },
+          {
+            "type": "fib_ote_entry",
+            "timeframe": "M15",
+            "direction": "bearish"
+          }
+        ],
+        "sl": {
+          "type": "swing",
+          "timeframe": "M15",
+          "side": "high",
+          "lookback": 20,
+          "atr_buffer": 1.0
+        },
+        "tp": {
+          "type": "rr",
+          "rr": 2.5
+        }
+      }
+    ]
+  }
+]
+```
