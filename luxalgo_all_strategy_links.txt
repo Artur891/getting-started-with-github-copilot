@@ -1,0 +1,956 @@
+Title: Your Favorite Indicator Probably Doesn't Work
+Video URL: https://www.youtube.com/watch?v=4Gdvq1KOwE8
+Strategy Links:
+  - https://www.luxalgo.com/library/indicator/universal-signal-backtester/
+
+==============================
+Title: This Simple Vwap Strategy Could Change Your Trading Forever
+Video URL: https://www.youtube.com/watch?v=uU7rJZY4RDQ
+Strategy Links:
+  - https://www.luxalgo.com/library/indicator/avema/
+
+==============================
+Title: The Greatest Smart Money Concepts Indicator of 2026
+Video URL: https://www.youtube.com/watch?v=lujpWWPHVEQ
+Strategy Links:
+  - https://www.luxalgo.com/library/indicator/structure-trend-dashboard/
+
+==============================
+Title: The AMD Strategy Is Actually Profitable??
+Video URL: https://www.youtube.com/watch?v=5FsEs9yqFZo
+Strategy Links:
+  - https://app.luxalgo.com/quant/c0af3zoajc4iwyrzrog02www
+
+==============================
+Title: Simple Liquidity Sweep Strategy
+Video URL: https://www.youtube.com/watch?v=4KGp1QaYtRg
+Strategy Links:
+  - https://www.luxalgo.com/library/indicator/session-sweep-ifvg-rr/
+
+==============================
+Title: This Simple Break & Retest Strategy Is Actually Profitable
+Video URL: https://www.youtube.com/watch?v=hLjsdyVl_-s
+Strategy Links:
+  - https://www.luxalgo.com/library/indicator/significant-breakout-levels-fvg/
+
+==============================
+Title: Stupid Simple Multi Time Frame Trading Strategy
+Video URL: https://www.youtube.com/watch?v=NHNaw2WRvZ4
+Strategy Links:
+  - https://www.luxalgo.com/library/indicator/htf-swing-structure-signals/
+
+==============================
+Title: This Trading Strategy Could Change Your Life
+Video URL: https://www.youtube.com/watch?v=jZ0GvBEPUJA
+Strategy Links:
+  - https://www.luxalgo.com/quant/wj10lm4y45zvg2fo00qr3ezk/
+
+==============================
+Title: This NEW Opening Range Breakout Indicator Is Genius
+Video URL: https://www.youtube.com/watch?v=FPtIBf2jWvs
+Strategy Links:
+  - https://www.luxalgo.com/library/indicator/ultimate-opening-range-breakout/
+
+==============================
+Title: Stupid Simple Trend Continuation Strategy
+Video URL: https://www.youtube.com/watch?v=N8IxuN482tw
+Strategy Links:
+  - https://www.luxalgo.com/quant/iisrh2ha00c1wk9ebt00juy3/
+
+==============================
+Title: The Greatest CRT Indicator Ever Built (Candle Range Theory)
+Video URL: https://www.youtube.com/watch?v=t8JeT5JPb-g
+Strategy Links:
+  - https://www.luxalgo.com/library/indicator/crt-sweep-setup-highlighter/
+
+==============================
+Title: Stupid Simple Session Sweep Strategy
+Video URL: https://www.youtube.com/watch?v=JV2fP168xGQ
+Strategy Links:
+  - https://www.luxalgo.com/quant/z8l5pu7i8ungq439pgyhcnew/
+
+==============================
+Title: Is This Market Structure Fibonacci Strategy Actually Good?
+Video URL: https://www.youtube.com/watch?v=zEtEC-mNsXE
+Strategy Links:
+  - https://www.luxalgo.com/library/indicator/mss-sweep-fib-retrace/
+
+==============================
+Title: Greatest Fibonacci Trading Strategy in 2026?
+Video URL: https://www.youtube.com/watch?v=dorSCSCSDhw
+Strategy Links:
+  - https://www.luxalgo.com/library/indicator/market-structure-fibonacci-zones-rr/
+
+==============================
+Title: This AI Let's You Backtest ANY Trading Strategy
+Video URL: https://www.youtube.com/watch?v=PoNMMj_hGbs
+Strategy Links:
+  - https://www.luxalgo.com/features/quant
+
+==============================
+Title: This Trading Strategy Is Bangin
+Video URL: https://www.youtube.com/watch?v=Xm8YZXtC4CM
+Strategy Links:
+  - https://www.luxalgo.com/features/
+
+==============================
+Title: Simple Liquidity Sweep Strategy
+Video URL: https://www.youtube.com/watch?v=smr8bl4awy0
+Strategy Links:
+  - https://www.luxalgo.com/library/indicator/htf-sweep-signals/
+
+==============================
+Title: Stupid Simple ICT CISD Strategy
+Video URL: https://www.youtube.com/watch?v=AqgA444-QJQ
+Strategy Links:
+  - https://www.luxalgo.com/library/indicator/htf-cisd-projections/
+
+==============================
+Title: This Trading Strategy is Insanely Profitable?
+Video URL: https://www.youtube.com/watch?v=hcvAbVYJH20
+Strategy Links:
+  - https://www.luxalgo.com/library/indicator/8am-road-map-zone/
+
+==============================
+Title: The Best Trading Strategy In 2026?
+Video URL: https://www.youtube.com/watch?v=lL4r3PSXboY
+Strategy Links:
+  - https://www.luxalgo.com/library/indicator/8am-1h-range-breaks/
+
+==============================
+Title: This Scalping Strategy Is Next Level
+Video URL: https://www.youtube.com/watch?v=5_j2mHjcBrA
+Strategy Links:
+  - https://www.luxalgo.com/library/indicator/9-30-am-15m-fib-breakout/
+
+==============================
+Title: Stupid Simple Trading Strategy For Beginners
+Video URL: https://www.youtube.com/watch?v=l3eOi1VYTo8
+Strategy Links:
+  - https://www.luxalgo.com/library/
+
+==============================
+Title: This Liquidity Trading Concept Is Actually Genius
+Video URL: https://www.youtube.com/watch?v=ww9j6l46J7I
+Strategy Links:
+  - https://www.luxalgo.com/library/indicator/rubber-band-liquidity-signals/
+
+==============================
+Title: This NEW Breakout Gap Strategy Is Actually Good…
+Video URL: https://www.youtube.com/watch?v=ewjREP-FCr4
+Strategy Links:
+  - https://www.luxalgo.com/library/indicator/gap-fill-breakouts/
+
+==============================
+Title: The Greatest AI Strategy Builder On TradingView
+Video URL: https://www.youtube.com/watch?v=w4_i_27Ottw
+Strategy Links:
+  - https://www.luxalgo.com/library/indicator/supertrend-parameter-sensitivity-3d/
+
+==============================
+Title: Stupid Simple IFVG Strategy
+Video URL: https://www.youtube.com/watch?v=ZOE0RkbtoIQ
+Strategy Links:
+  - https://www.luxalgo.com/library/indicator/sweeps-ifvgs/
+
+==============================
+Title: This NEW Price Action Strategy Signals Momentum Perfectly
+Video URL: https://www.youtube.com/watch?v=qyzVYpMTIKw
+Strategy Links:
+  - https://www.luxalgo.com/library/indicator/ltf-momentum-projection/
+
+==============================
+Title: This NEW Session Indicator Is Actually Genius
+Video URL: https://www.youtube.com/watch?v=-lYvj0r80MQ
+Strategy Links:
+  - https://www.luxalgo.com/library/indicator/session-volume-moving-average/
+
+==============================
+Title: Stupid Easy FVG Strategy
+Video URL: https://www.youtube.com/watch?v=LDuX2sdzzNQ
+Strategy Links:
+  - https://www.luxalgo.com/library/indicator/fvg-liquidity-sweep-cisd/
+
+==============================
+Title: We Built The Most Popular Indicator on TradingView
+Video URL: https://www.youtube.com/watch?v=uFoX462EUdE
+Strategy Links:
+  - https://www.luxalgo.com/features/quant/
+
+==============================
+Title: AI Builds the Most Insane Liquidity Indicator
+Video URL: https://www.youtube.com/watch?v=miwiYB4jQeU
+Strategy Links:
+  - https://www.luxalgo.com/quant/
+
+==============================
+Title: This AI Indicator Predicts The Future (Monte Carlo Engine)
+Video URL: https://www.youtube.com/watch?v=GPteSv53S3Y
+Strategy Links:
+  - https://www.luxalgo.com/library/indicator/predictive-monte-carlo-engine/
+  - https://www.luxalgo.com/features/quant/
+
+==============================
+Title: The Greatest Equal Highs & Lows Liquidity Indicator on TradingView (2026)
+Video URL: https://www.youtube.com/watch?v=HfdJeujMqFg
+Strategy Links:
+  - https://www.luxalgo.com/library/indicator/eqh-eql-liquidity-zones/
+  - https://www.luxalgo.com/features/quant/
+
+==============================
+Title: Quant Builds ORB Strategy in Mins
+Video URL: https://www.youtube.com/watch?v=mXWRprPyu6w
+Strategy Links:
+  - https://luxalgo.com/Quant
+
+==============================
+Title: Best Multi Timeframe Order Flow Indicator for Trading
+Video URL: https://www.youtube.com/watch?v=y3qXfWEwOKk
+Strategy Links:
+  - https://www.luxalgo.com/library/indicator/htf-volume-spike-imbalance-projection/
+  - https://www.luxalgo.com/features/quant/
+
+==============================
+Title: Huge Update To Quant🚨
+Video URL: https://www.youtube.com/watch?v=4GnWCBX8nb8
+Strategy Links:
+  - https://luxalgo.com/Quant
+
+==============================
+Title: The Ultimate Opening Range Breakout Indicator
+Video URL: https://www.youtube.com/watch?v=zUWCa3Dnjq8
+Strategy Links:
+  - https://www.luxalgo.com/library/indicator/ultimate-opening-range-breakout/
+  - https://www.luxalgo.com/features/quant/
+
+==============================
+Title: This AI Indicator Plots Market Structure Perfectly
+Video URL: https://www.youtube.com/watch?v=nmRfiDq14_8
+Strategy Links:
+  - https://www.luxalgo.com/library/indicator/knn-market-architecture/
+  - https://www.luxalgo.com/features/quant/
+
+==============================
+Title: The Truth About These Trading Concepts… Anyone Can Build With Quant
+Video URL: https://www.youtube.com/watch?v=3vi5jhj1LvA
+Strategy Links:
+  - http://luxalgo.com/Quant">LuxAlgo.com/Quant
+
+==============================
+Title: The Smartest Volume Profile Every Built (K-Means Clustering)
+Video URL: https://www.youtube.com/watch?v=ASFSxfnBU3w
+Strategy Links:
+  - https://www.luxalgo.com/library/indicator/anchored-clusters-volume-profile/
+  - https://www.luxalgo.com/features/quant/
+
+==============================
+Title: The Greatest Support & Resistance Indicator on TradingView (2026)
+Video URL: https://www.youtube.com/watch?v=ccpLa5SXG_g
+Strategy Links:
+  - https://www.luxalgo.com/library/indicator/support-resistance-pro-toolkit/
+  - https://www.luxalgo.com/features/quant/
+
+==============================
+Title: This Simple Price Action Strategy Is Amazing
+Video URL: https://www.youtube.com/watch?v=R5K192PRux0
+Strategy Links:
+  - https://www.luxalgo.com/quant/oxja97gtholp4vs95u837ck5/
+
+==============================
+Title: This No Wick Strategy Is Actually Insane
+Video URL: https://www.youtube.com/watch?v=Lf69YCUGDIE
+Strategy Links:
+  - https://www.luxalgo.com/quant/wpq92y8igf6dgjswm3aknmus/
+
+==============================
+Title: This Market Structure Strategy Is Peak
+Video URL: https://www.youtube.com/watch?v=Kp36ez8C94A
+Strategy Links:
+  - https://www.luxalgo.com/quant/oxja97gtholp4vs95u837ck5/
+
+==============================
+Title: Stupid Simple Strategy Makes $10,000 a week?
+Video URL: https://www.youtube.com/watch?v=MsBHDAXWPMo
+Strategy Links:
+  - https://www.luxalgo.com/quant/bvhm0ic1djjstnw5l4o0e766/
+
+==============================
+Title: Backtesting Just Got 10X Easier
+Video URL: https://www.youtube.com/watch?v=kae850gH1AA
+Strategy Links:
+  - https://www.luxalgo.com/backtesting
+
+==============================
+Title: This Breakout Strategy is Insanely Effective
+Video URL: https://www.youtube.com/watch?v=ocj4CMYng3A
+Strategy Links:
+  - https://www.luxalgo.com/quant/lpmn882nsvj44fy9zos30789/
+
+==============================
+Title: Building Trading Tools w/ Quant
+Video URL: https://www.youtube.com/watch?v=4UfzPOyMKb0
+Strategy Links:
+  - https://www.luxalgo.com/quant/u0o9e2rxx2ai119t45yaspvc/
+
+==============================
+Title: This Trendline Break Indicator Is Actually Insane
+Video URL: https://www.youtube.com/watch?v=YEchX-RxRDc
+Strategy Links:
+  - https://www.luxalgo.com/quant/zxzllsshq0wasemywvyhd5ld/
+
+==============================
+Title: This Indicator Finds Reversals Before They Happen
+Video URL: https://www.youtube.com/watch?v=QKqxzg8mEFM
+Strategy Links:
+  - https://www.luxalgo.com/library/indicator/htf-reversal-divergences/
+  - https://www.luxalgo.com/features/quant/
+
+==============================
+Title: Stupid Simple Sessions Indicator
+Video URL: https://www.youtube.com/watch?v=XSsw1MYMzrw
+Strategy Links:
+  - https://www.luxalgo.com/quant/pmt4mom3uyr2jtne3to5tici/
+
+==============================
+Title: Building Trading Tools w/ Quant
+Video URL: https://www.youtube.com/watch?v=XQiVMdYvDIw
+Strategy Links:
+  - https://www.luxalgo.com/quant/cko56hfjj7xm8mbentlb7t3z/
+
+==============================
+Title: This Equal High & Low Indicator Is Game Changing
+Video URL: https://www.youtube.com/watch?v=uGkZpZW6zS0
+Strategy Links:
+  - https://www.luxalgo.com/quant/cko56hfjj7xm8mbentlb7t3z/
+
+==============================
+Title: Best Smart Money Concept Indicator
+Video URL: https://www.youtube.com/watch?v=VXhULBsiwiI
+Strategy Links:
+  - https://www.luxalgo.com/quant/vaveelfby2absul58hxmsm40
+
+==============================
+Title: The Most Advanced Order Flow Indicator On TradingView
+Video URL: https://www.youtube.com/watch?v=IkLLssYbDB0
+Strategy Links:
+  - https://www.luxalgo.com/library/indicator/liquidity-structure-order-flow/
+  - https://www.luxalgo.com/features/quant/
+
+==============================
+Title: This Scalp Indicator Is Crazy…
+Video URL: https://www.youtube.com/watch?v=pIWefLKRChs
+Strategy Links:
+  - https://www.luxalgo.com/quant/iitkekfo0v1l3fzbn73pa2tc
+
+==============================
+Title: This SMC Indicator Makes TJR’s Strategy Stupid Simple
+Video URL: https://www.youtube.com/watch?v=7WLJqxw4qcw
+Strategy Links:
+  - https://www.luxalgo.com/quant/xiukijwjbdy4js46tp3ttxxx/
+
+==============================
+Title: Most Traders Get This Wrong
+Video URL: https://www.youtube.com/watch?v=93wLuBnh9lg
+Strategy Links:
+  - https://www.luxalgo.com/quant/ua6evwykv5q6isuyc13vxjmt/
+
+==============================
+Title: Building Trading Tools w/ Quant
+Video URL: https://www.youtube.com/watch?v=Lh2gpZD5IJg
+Strategy Links:
+  - https://www.luxalgo.com/quant/b0j1cwr67gapf3wd8e2m5kd2/
+  - https://www.luxalgo.com/quant/f61y99gqwqoaxu261mpo2is6/
+
+==============================
+Title: This XAU Asia Strategy Is Game Changing
+Video URL: https://www.youtube.com/watch?v=PiNjhd6rN3U
+Strategy Links:
+  - https://www.luxalgo.com/quant/vpusrulxi1j83yrot9mjzxhl/
+
+==============================
+Title: Trader Builds SMT Divergence Indicator in 60 Seconds
+Video URL: https://www.youtube.com/watch?v=QIHzj6-yVTQ
+Strategy Links:
+  - http://luxalgo.com/Quant">LuxAlgo.com/Quant
+
+==============================
+Title: Quant Builds Insane Volume Profile Indicator
+Video URL: https://www.youtube.com/watch?v=K13R1ZCbtXs
+Strategy Links:
+  - http://luxalgo.com/Quant">LuxAlgo.com/Quant
+
+==============================
+Title: This Power of 3 Strategy Breaks the System
+Video URL: https://www.youtube.com/watch?v=NO-zd-eITmA
+Strategy Links:
+  - http://luxalgo.com/Quant">LuxAlgo.com/Quant
+
+==============================
+Title: The Greatest AI For Trading Strategies
+Video URL: https://www.youtube.com/watch?v=GlKlRAieyDc
+Strategy Links:
+  - http://luxalgo.com/">LuxAlgo.com
+
+==============================
+Title: The Perfect Opening Range Breakout Indicator built by Quant
+Video URL: https://www.youtube.com/watch?v=OriBKPKc0Ls
+Strategy Links:
+  - http://luxalgo.com/">LuxAlgo.com
+
+==============================
+Title: How to WIN at Trading in 2026
+Video URL: https://www.youtube.com/watch?v=tB7HsMpKgPc
+Strategy Links:
+  - http://luxalgo.com/">LuxAlgo.com
+
+==============================
+Title: This Indicator Predicts the Next Move
+Video URL: https://www.youtube.com/watch?v=1njruS3S_yA
+Strategy Links:
+  - http://luxalgo.com/Quant">LuxAlgo.com/Quant
+
+==============================
+Title: The Best Strategy of 2026?!
+Video URL: https://www.youtube.com/watch?v=bYM0dm4rqXo
+Strategy Links:
+  - http://luxalgo.com/Quant">LuxAlgo.com/Quant
+
+==============================
+Title: This Strategy is Actually Insane.
+Video URL: https://www.youtube.com/watch?v=8E6ioD_89Os
+Strategy Links:
+  - http://luxalgo.com/Quant">LuxAlgo.com/Quant
+
+==============================
+Title: I Backtested This “Winning” Strategy
+Video URL: https://www.youtube.com/watch?v=wqgAwEO2oi0
+Strategy Links:
+  - http://luxalgo.com/Quant">LuxAlgo.com/Quant
+
+==============================
+Title: This Delta Indicator is Mind Blowing
+Video URL: https://www.youtube.com/watch?v=fWcJICkPLSE
+Strategy Links:
+  - http://luxalgo.com/Quant">LuxAlgo.com/Quant
+
+==============================
+Title: This Simple Strategy Is Amazing
+Video URL: https://www.youtube.com/watch?v=yVIpYYG2p7k
+Strategy Links:
+  - http://luxalgo.com/Quant">LuxAlgo.com/Quant
+
+==============================
+Title: This Simple Indicator Is Game Changing
+Video URL: https://www.youtube.com/watch?v=vTR-B1ztRLc
+Strategy Links:
+  - http://luxalgo.com/">LuxAlgo.com
+
+==============================
+Title: The BEST Way to Backtest in 2026
+Video URL: https://www.youtube.com/watch?v=sEIiBlFf2p8
+Strategy Links:
+  - http://luxalgo.com/">LuxAlgo.com
+
+==============================
+Title: This Daily Bias Concept Changes Everything
+Video URL: https://www.youtube.com/watch?v=AcC9RIbgHow
+Strategy Links:
+  - http://luxalgo.com/">LuxAlgo.com
+
+==============================
+Title: Order Flow on TradingView😳💀
+Video URL: https://www.youtube.com/watch?v=bJJZ-J4OrsM
+Strategy Links:
+  - http://luxalgo.com/Quant">LuxAlgo.com/Quant
+
+==============================
+Title: This XAU Indicator is Game Changing
+Video URL: https://www.youtube.com/watch?v=W-a8AM0P-bI
+Strategy Links:
+  - http://luxalgo.com/quant">LuxAlgo.com/quant
+
+==============================
+Title: Quant changes everything…
+Video URL: https://www.youtube.com/watch?v=2dEKrUsuZ_k
+Strategy Links:
+  - https://www.luxalgo.com/quant/
+
+==============================
+Title: Introducing Quant - The World’s First AI Indicator Architect
+Video URL: https://www.youtube.com/watch?v=ow_5JsBQmOg
+Strategy Links:
+  - https://www.luxalgo.com/quant/
+
+==============================
+Title: This AI Strategy Outperforms Gold
+Video URL: https://www.youtube.com/watch?v=zTG9ZEtswWw
+Strategy Links:
+  - http://luxalgo.com/chat">LuxAlgo.com/chat
+
+==============================
+Title: Are AI Trading Strategies Cooked?
+Video URL: https://www.youtube.com/watch?v=u-GK8YQRpqY
+Strategy Links:
+  - http://luxalgo.com/chat">LuxAlgo.com/chat
+
+==============================
+Title: This AI Auto-Trades Real Markets
+Video URL: https://www.youtube.com/watch?v=MdHhyu6R0SQ
+Strategy Links:
+  - http://luxalgo.com/chat">LuxAlgo.com/chat
+
+==============================
+Title: This Trading AI Is Game Changing
+Video URL: https://www.youtube.com/watch?v=A5jiDPM7q0g
+Strategy Links:
+  - http://luxalgo.com/chat">LuxAlgo.com/chat
+
+==============================
+Title: Trader Uses AI to Generate a Profitable XAU Strategy in Seconds.
+Video URL: https://www.youtube.com/watch?v=-enl_5GmcO0
+Strategy Links:
+  - http://luxalgo.com/backtesting">LuxAlgo.com/backtesting
+
+==============================
+Title: Trader Discovers 98% Winrate Strategy with AI
+Video URL: https://www.youtube.com/watch?v=V7Ntm5VVME8
+Strategy Links:
+  - http://luxalgo.com/chat">LuxAlgo.com/chat
+
+==============================
+Title: Automate Profitable Strategies in Minutes
+Video URL: https://www.youtube.com/watch?v=cM3MZveExRM
+Strategy Links:
+  - http://luxalgo.com/chat">LuxAlgo.com/chat
+
+==============================
+Title: This Trading AI is insane…
+Video URL: https://www.youtube.com/watch?v=a7xrUM55fx4
+Strategy Links:
+  - http://luxalgo.com/chat">LuxAlgo.com/chat
+
+==============================
+Title: Can’t be real right? 🥹
+Video URL: https://www.youtube.com/watch?v=1UvJPnS7f1E
+Strategy Links:
+  - http://luxalgo.com/chat">LuxAlgo.com/chat
+
+==============================
+Title: The Best Way To Trade Fair Value Gaps
+Video URL: https://www.youtube.com/watch?v=J22j3WDu9j4
+Strategy Links:
+  - https://www.luxalgo.com/library/indicator/htf-fair-value-gap
+
+==============================
+Title: Best Candlestick Trading Indicator
+Video URL: https://www.youtube.com/watch?v=nup14j5ZTJ4
+Strategy Links:
+  - https://www.luxalgo.com/library/indicator/internal-candle-strength/
+
+==============================
+Title: This Trading Indicator Predicts the EXACT Future
+Video URL: https://www.youtube.com/watch?v=iHq0BZA-0AQ
+Strategy Links:
+  - https://www.luxalgo.com/library/indicator/anchored-monte-carlo-shuffled-projection
+
+==============================
+Title: Greatest Price Action Indicator on TradingView (Price Action Concepts Full Breakdown)
+Video URL: https://www.youtube.com/watch?v=rD776uLM4P0
+Strategy Links:
+  - https://luxalgo.com/
+
+==============================
+Title: This AI Assistant Finds Profitable Strategies in Seconds
+Video URL: https://www.youtube.com/watch?v=kclbxoahm2s
+Strategy Links:
+  - https://luxalgo.com/
+
+==============================
+Title: NEW AI Backtesting Tool Finds Trading Strategies 10x Easier
+Video URL: https://www.youtube.com/watch?v=80ng8BJZFg4
+Strategy Links:
+  - https://luxalgo.com/backtesting
+
+==============================
+Title: Greatest Smart Money Concepts Indicator (In-Depth Tutorial)
+Video URL: https://www.youtube.com/watch?v=dRFLAWHhy1s
+Strategy Links:
+  - http://www.luxalgo.com/library">www.luxalgo.com/library
+
+==============================
+Title: How To Set Alerts on LuxAlgo Toolkits (Full Guide)
+Video URL: https://www.youtube.com/watch?v=olKQq5XR5S0
+Strategy Links:
+  - https://docs.luxalgo.com/
+
+==============================
+Title: These New Candles Change Everything
+Video URL: https://www.youtube.com/watch?v=YpWrzsEY-Ao
+Strategy Links:
+  - http://luxalgo.com/library">LuxAlgo.com/library
+
+==============================
+Title: Biggest Stop Loss Mistake (Easy Fix)
+Video URL: https://www.youtube.com/watch?v=LL7PiNxxwUk
+Strategy Links:
+  - http://luxalgo.com/">LuxAlgo.com
+
+==============================
+Title: Insane AI Trading Indicator (Now Live)
+Video URL: https://www.youtube.com/watch?v=7SsBWFfnYKc
+Strategy Links:
+  - http://luxalgo.com/">LuxAlgo.com
+
+==============================
+Title: This Volume Indicator Is Over Powered
+Video URL: https://www.youtube.com/watch?v=TtmpQ6WGOTI
+Strategy Links:
+  - http://luxalgo.com/">LuxAlgo.com
+
+==============================
+Title: Crazy RSI Indicator Tricks
+Video URL: https://www.youtube.com/watch?v=9iuaA-Z9pf4
+Strategy Links:
+  - http://luxalgo.com/">LuxAlgo.com
+
+==============================
+Title: How To Find The Best Trade Setups
+Video URL: https://www.youtube.com/watch?v=khHJj5a45Eo
+Strategy Links:
+  - http://luxalgo.com/">LuxAlgo.com
+
+==============================
+Title: He Made $300M Using A Trading Strategy
+Video URL: https://www.youtube.com/watch?v=CzZH-obyQWI
+Strategy Links:
+  - https://app.luxalgo.com/library/indicator/Ultimate-RSI
+
+==============================
+Title: The Secret To Price Action
+Video URL: https://www.youtube.com/watch?v=ZvGtGd3kCvw
+Strategy Links:
+  - https://luxalgo.com/
+
+==============================
+Title: NEW Liquidity Indicator
+Video URL: https://www.youtube.com/watch?v=fuXTtU-NanU
+Strategy Links:
+  - http://luxalgo.com/">LuxAlgo.com
+
+==============================
+Title: Biggest Support & Resistance Mistake
+Video URL: https://www.youtube.com/watch?v=RPi9hrObiAw
+Strategy Links:
+  - https://luxalgo.com/
+
+==============================
+Title: Best Trading Indicators
+Video URL: https://www.youtube.com/watch?v=pOe7P4W3Lr0
+Strategy Links:
+  - http://luxalgo.com/">LuxAlgo.com
+
+==============================
+Title: Amazing FVG Indicator
+Video URL: https://www.youtube.com/watch?v=tawdhIuARjo
+Strategy Links:
+  - http://luxalgo.com/">LuxAlgo.com
+
+==============================
+Title: The Key to Hold Trades Longer
+Video URL: https://www.youtube.com/watch?v=pheDxbqNkdQ
+Strategy Links:
+  - https://www.luxalgo.com/
+
+==============================
+Title: Biggest Trading Mistake
+Video URL: https://www.youtube.com/watch?v=fhXRfqR6qhc
+Strategy Links:
+  - https://www.luxalgo.com/
+
+==============================
+Title: The Secret To Fibonacci Trading
+Video URL: https://www.youtube.com/watch?v=Ynfc7U9LJdo
+Strategy Links:
+  - https://luxalgo.com/
+
+==============================
+Title: How To Trade Liquidity
+Video URL: https://www.youtube.com/watch?v=UtyBIa9IhPs
+Strategy Links:
+  - https://luxalgo.com/
+
+==============================
+Title: LIVE Charting - LuxAlgo Indicators + Q&A 📈 Stocks, Crypto + MORE
+Video URL: https://www.youtube.com/watch?v=ystlqzjNj84
+Strategy Links:
+  - http://luxalgo.com/">LuxAlgo.com
+
+==============================
+Title: Best Smart Money Strategy
+Video URL: https://www.youtube.com/watch?v=QKu_uUO2uTI
+Strategy Links:
+  - https://luxalgo.com/
+
+==============================
+Title: Best Price Action Strategy
+Video URL: https://www.youtube.com/watch?v=zIYZOJ6jY18
+Strategy Links:
+  - https://luxalgo.com/
+
+==============================
+Title: Amazing Trend Trading Strategy
+Video URL: https://www.youtube.com/watch?v=_l-7Xae-5Q8
+Strategy Links:
+  - https://luxalgo.com/
+
+==============================
+Title: BEST Support & Resistance Indicator
+Video URL: https://www.youtube.com/watch?v=atIuvyVnA6I
+Strategy Links:
+  - https://luxalgo.com/
+
+==============================
+Title: 1 Indicator That Actually Makes Sense
+Video URL: https://www.youtube.com/watch?v=2PWZMtUxD-s
+Strategy Links:
+  - https://luxalgo.com/
+
+==============================
+Title: Reversal Signal Strategy
+Video URL: https://www.youtube.com/watch?v=TgN6atrNeGY
+Strategy Links:
+  - https://luxalgo.com/
+
+==============================
+Title: NO FURU, NO FUGAZI👑
+Video URL: https://www.youtube.com/watch?v=-r44aGcB1MA
+Strategy Links:
+  - https://luxalgo.com/
+
+==============================
+Title: INSANE REVERSAL INDICATOR🤖🔥
+Video URL: https://www.youtube.com/watch?v=Tau6PpvhAKM
+Strategy Links:
+  - https://luxalgo.com/
+
+==============================
+Title: BEST Oscillator Matrix swing strategy📈 | LuxAlgo Indicators
+Video URL: https://www.youtube.com/watch?v=szfmCfxRT1g
+Strategy Links:
+  - https://luxalgo.com/
+
+==============================
+Title: This indicator PREDICTS FUTURE Volume📊🔮
+Video URL: https://www.youtube.com/watch?v=6z0fs1Q2Clw
+Strategy Links:
+  - https://luxalgo.com/
+
+==============================
+Title: THE Indicator that shows PERFECT liquidity fills & Volume Profiles🚀🎯
+Video URL: https://www.youtube.com/watch?v=kEvGZlkeXrA
+Strategy Links:
+  - https://luxalgo.com/
+
+==============================
+Title: Powerful 5 Minute Scalping Strategy Using LuxAlgo (Setup Series EP 4)
+Video URL: https://www.youtube.com/watch?v=jlzkhwtIghk
+Strategy Links:
+  - https://luxalgo.com/
+
+==============================
+Title: The 1 Price Action Strategy You Must Know: LuxAlgo Setup Series EP 3.
+Video URL: https://www.youtube.com/watch?v=HQ-yZrDrAxU
+Strategy Links:
+  - https://luxalgo.com/
+
+==============================
+Title: The BEST Smart Money Concepts Alert System on TradingView (LuxAlgo)
+Video URL: https://www.youtube.com/watch?v=GkoAVAuZ5xM
+Strategy Links:
+  - https://luxalgo.com/
+
+==============================
+Title: BEST Liquidity Volume Profile Indicator📊 | Liquidity Sentiment Profile LuxAlgo
+Video URL: https://www.youtube.com/watch?v=fX1MtRnlpKg
+Strategy Links:
+  - https://luxalgo.com/
+
+==============================
+Title: INSANE SMC LIQUIDITY STRATEGY😱📊
+Video URL: https://www.youtube.com/watch?v=fwG2WHsjDko
+Strategy Links:
+  - https://luxalgo.com/
+
+==============================
+Title: NEW Oscillator Matrix v6 Toolkit Overview (Huge Update)
+Video URL: https://www.youtube.com/watch?v=ujisD2JieZA
+Strategy Links:
+  - https://docs.luxalgo.com/lux-algo-premium-indicators/lux-oscillator-premium/
+
+==============================
+Title: Price Action Concepts UPDATE V1.3 ✅📈
+Video URL: https://www.youtube.com/watch?v=LTcNyX1ZPgg
+Strategy Links:
+  - https://luxalgo.com/
+
+==============================
+Title: Price Action Concepts Strategy🔥📈
+Video URL: https://www.youtube.com/watch?v=bPAxYQhCuk0
+Strategy Links:
+  - https://luxalgo.com/
+
+==============================
+Title: LuxAlgo Contrarian Signals STRATEGY 📈
+Video URL: https://www.youtube.com/watch?v=_77tObVw09A
+Strategy Links:
+  - https://luxalgo.com/
+
+==============================
+Title: Simple LuxAlgo Strategy | Signals & Overlays v6 📈
+Video URL: https://www.youtube.com/watch?v=ZkdYwEeMloU
+Strategy Links:
+  - http://luxalgo.com/">LuxAlgo.com
+
+==============================
+Title: Insanely ACCURATE The STRAT Combos Automatic Indicator 📈🔥
+Video URL: https://www.youtube.com/watch?v=OUHsln6ihos
+Strategy Links:
+  - https://luxalgo.com/
+
+==============================
+Title: World’s First Fully Automatic Elliott Wave Indicator 🤯
+Video URL: https://www.youtube.com/watch?v=UQOcR5Kx504
+Strategy Links:
+  - https://luxalgo.com/
+
+==============================
+Title: Implied Fair Value Gap Explained ICT Concepts LuxAlgo Indicator 📈
+Video URL: https://www.youtube.com/watch?v=A64FzmN-fTE
+Strategy Links:
+  - https://luxalgo.com/
+
+==============================
+Title: How To Trade A Bullish CHoCH (Swing Market Structure) 🔥📈
+Video URL: https://www.youtube.com/watch?v=6hpDQVWNMEk
+Strategy Links:
+  - https://luxalgo.com/
+
+==============================
+Title: How To Trade Chart Patterns The RIGHT Way 📈 Don’t Be Liquidity
+Video URL: https://www.youtube.com/watch?v=m2tQveW9oGQ
+Strategy Links:
+  - https://luxalgo.com/
+
+==============================
+Title: How To Trade Trend Lines as LIQUIDITY 📈 #LuxAlgo Smart Money Concepts
+Video URL: https://www.youtube.com/watch?v=nNwywUJTQxk
+Strategy Links:
+  - https://luxalgo.com/
+
+==============================
+Title: 1 SIMPLE Trading Strategy 📈
+Video URL: https://www.youtube.com/watch?v=qzBtvDS1314
+Strategy Links:
+  - https://luxalgo.com/
+
+==============================
+Title: This 1 Indicator "Predicts The EXACT Future" (Explained) #luxalgo
+Video URL: https://www.youtube.com/watch?v=zekJ6cKiotk
+Strategy Links:
+  - https://luxalgo.com/
+
+==============================
+Title: The CORRECT Way To Trade Break of Structure (BOS) in Smart Money Concepts 📈
+Video URL: https://www.youtube.com/watch?v=XSc5a9MORJQ
+Strategy Links:
+  - https://luxalgo.com/
+
+==============================
+Title: PERFECT Liquidity Grab Trading Strategy 🤯 (Must Know)
+Video URL: https://www.youtube.com/watch?v=3vbw-4KXptI
+Strategy Links:
+  - https://luxalgo.com/
+
+==============================
+Title: BEST Support Resistance Indicator That Detects Liquidity 📈
+Video URL: https://www.youtube.com/watch?v=FtHXyrbJTww
+Strategy Links:
+  - https://luxalgo.com/
+
+==============================
+Title: NEW Multi-timeframe ORDER BLOCKS Indicator **LuxAlgo Price Action Concepts**
+Video URL: https://www.youtube.com/watch?v=ZqWG01jj68Q
+Strategy Links:
+  - https://luxalgo.com/
+
+==============================
+Title: Trading Order Blocks w/ Volume Data 📈 #LuxAlgo
+Video URL: https://www.youtube.com/watch?v=0Se7mO8KHx4
+Strategy Links:
+  - https://luxalgo.com/
+
+==============================
+Title: The 1 Imbalance Trading Method They Don’t Want YOU To Know
+Video URL: https://www.youtube.com/watch?v=0q1XulLzFiE
+Strategy Links:
+  - https://luxalgo.com/
+
+==============================
+Title: 🔥 Most Accurate Order Blocks Strategy on TradingView 📈
+Video URL: https://www.youtube.com/watch?v=fmE7FG3YPkI
+Strategy Links:
+  - https://luxalgo.com/
+
+==============================
+Title: 🔥 Best MARKET STRUCTURE (BOS/CHoCH) Indicator 📈 LuxAlgo Price Action Concepts
+Video URL: https://www.youtube.com/watch?v=l3aVCxtZotE
+Strategy Links:
+  - https://luxalgo.com/
+
+==============================
+Title: How To Trade LIQUIDITY (Trend Line Zones) 📈 Price Action Concepts LuxAlgo
+Video URL: https://www.youtube.com/watch?v=xkjdz7maf2Y
+Strategy Links:
+  - https://luxalgo.com/
+
+==============================
+Title: How To Trade Liquidity Grabs 📈 LuxAlgo Price Action Concepts
+Video URL: https://www.youtube.com/watch?v=LavuBOxCTiA
+Strategy Links:
+  - https://luxalgo.com/
+
+==============================
+Title: CORRECT Way To Trade Change of Character (CHoCH)  in Smart Money Concepts 📈
+Video URL: https://www.youtube.com/watch?v=JJmM-p7XL_w
+Strategy Links:
+  - https://luxalgo.com/
+
+==============================
+Title: Order Blocks + Market Structure Strategy (Smart Money Concepts) 🤯
+Video URL: https://www.youtube.com/watch?v=q4877CfraEg
+Strategy Links:
+  - https://luxalgo.com/
+
+==============================
+Title: Easy EMA Scalping Strategy
+Video URL: https://www.youtube.com/watch?v=38R0CSrpaoY
+Strategy Links:
+  - http://luxalgo.com/">LuxAlgo.com
+
+==============================
+Title: How To Use TradingView In 60 Seconds (Tutorial)
+Video URL: https://www.youtube.com/watch?v=TcQwJ7XCfVk
+Strategy Links:
+  - https://luxalgo.com/
+
+==============================
+Title: How To Set Alerts on TradingView with LuxAlgo (NEW Filtered Alert Creator)
+Video URL: https://www.youtube.com/watch?v=nLsNdIdKKJE
+Strategy Links:
+  - https://luxalgo.com/
+
+==============================
+Title: BEST Custom VWAP Stock Trading Indicator
+Video URL: https://www.youtube.com/watch?v=zNuPMAkIvmw
+Strategy Links:
+  - https://luxalgo.com/
