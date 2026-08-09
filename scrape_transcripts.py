@@ -6,8 +6,12 @@ from youtube_transcript_api.formatters import TextFormatter
 
 def get_transcript(video_id):
     try:
-        # Пытаемся получить список доступных транскриптов
-        transcript_list = YouTubeTranscriptApi.list_transcripts(video_id)
+        # Пытаемся получить список доступных транскриптов. Поддержка обеих версий библиотеки.
+        try:
+            transcript_list = YouTubeTranscriptApi.list_transcripts(video_id)
+        except AttributeError:
+            ytt_api = YouTubeTranscriptApi()
+            transcript_list = ytt_api.list(video_id)
 
         # Ищем транскрипт на русском (созданный вручную или автоматически)
         try:
