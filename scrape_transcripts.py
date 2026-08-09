@@ -1,3 +1,4 @@
+import os
 import csv
 import time
 import random
@@ -47,8 +48,20 @@ def get_transcript(video_id):
         return f"Не удалось получить текст: {e}"
 
 def main():
-    input_file = 'voronovich_videos.tsv'
+    # Ищем файл с учетом того, что Windows может добавлять скрытые расширения
+    possible_names = ['voronovich_videos.tsv', 'voronovich_videos.tsv.txt', 'voronovich_videos.txt']
+    input_file = None
+    for name in possible_names:
+        if os.path.exists(name):
+            input_file = name
+            break
+
     output_file = 'voronovich_knowledge_base.txt'
+
+    if not input_file:
+        print(f"Ошибка: Файл со списком видео (voronovich_videos.tsv) не найден.")
+        print(f"Убедитесь, что вы распаковали архив и оба файла лежат в одной папке.")
+        return
 
     videos = []
     try:
@@ -63,8 +76,8 @@ def main():
 
                 if len(parts) == 2:
                     videos.append(parts)
-    except FileNotFoundError:
-        print(f"Ошибка: Файл {input_file} не найден. Убедитесь, что он лежит в той же папке.")
+    except Exception as e:
+        print(f"Ошибка при чтении файла {input_file}: {e}")
         return
 
     total_videos = len(videos)
