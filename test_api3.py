@@ -1,2 +1,0 @@
-import youtube_transcript_api
-print(youtube_transcript_api.__version__)

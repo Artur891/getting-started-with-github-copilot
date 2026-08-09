@@ -6,10 +6,18 @@ from youtube_transcript_api.formatters import TextFormatter
 
 def get_transcript(video_id):
     try:
-        # Пытаемся получить список доступных транскриптов. Поддержка обеих версий библиотеки.
-        try:
+        # Проверяем версию библиотеки и вызываем нужный метод
+        if hasattr(YouTubeTranscriptApi, 'list_transcripts'):
+            # Версии ~0.4.x до 1.x
             transcript_list = YouTubeTranscriptApi.list_transcripts(video_id)
-        except AttributeError:
+        elif hasattr(YouTubeTranscriptApi, 'get_transcript'):
+            # Очень старые версии < 0.3.x
+            transcript_data = YouTubeTranscriptApi.get_transcript(video_id, languages=['ru', 'en'])
+            text = " ".join([item['text'] for item in transcript_data])
+            text = text.replace('\n', ' ')
+            return text
+        else:
+            # Версия >= 1.2.x (текущая)
             ytt_api = YouTubeTranscriptApi()
             transcript_list = ytt_api.list(video_id)
 
