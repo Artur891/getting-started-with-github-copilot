@@ -42,7 +42,13 @@ def main():
     try:
         with open(input_file, 'r', encoding='utf-8') as f:
             for line in f:
-                parts = line.strip().split('\t', 1)
+                # В файле может быть как настоящая табуляция, так и буквальные символы \t
+                clean_line = line.strip()
+                if '\\t' in clean_line:
+                    parts = clean_line.split('\\t', 1)
+                else:
+                    parts = clean_line.split('\t', 1)
+
                 if len(parts) == 2:
                     videos.append(parts)
     except FileNotFoundError:
