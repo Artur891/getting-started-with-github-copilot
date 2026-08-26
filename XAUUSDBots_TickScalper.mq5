@@ -43,10 +43,10 @@ enum ENUM_FILTER_TYPE {
 input ENUM_FILTER_TYPE InpFilterType = FILTER_NONE; // Selected Filter
 
 //--- Global variables
-CTrade         trade;
-CSymbolInfo    symbol;
-CPositionInfo  position;
-COrderInfo     order;
+CTrade         m_trade;
+CSymbolInfo    m_symbol;
+CPositionInfo  m_position;
+COrderInfo     m_order;
 
 bool isTradingEnabled = true;
 
@@ -108,11 +108,11 @@ bool CreateGUI()
 int OnInit()
   {
 //---
-   if(!symbol.Name(_Symbol))
+   if(!m_symbol.Name(_Symbol))
       return(INIT_FAILED);
-   symbol.Refresh();
+   m_symbol.Refresh();
 
-   trade.SetExpertMagicNumber(1337);
+   m_trade.SetExpertMagicNumber(1337);
 
    if(!CreateGUI())
    {
@@ -276,14 +276,14 @@ void ManageTrailingStop()
 
    for(int i = PositionsTotal() - 1; i >= 0; i--)
    {
-      if(position.SelectByIndex(i) && position.Symbol() == _Symbol && position.Magic() == 1337)
+      if(m_position.SelectByIndex(i) && m_position.Symbol() == _Symbol && m_position.Magic() == 1337)
       {
-         double currentPrice = (position.PositionType() == POSITION_TYPE_BUY) ? symbol.Bid() : symbol.Ask();
-         double openPrice = position.PriceOpen();
-         double currentSL = position.StopLoss();
-         double currentTP = position.TakeProfit();
+         double currentPrice = (m_position.PositionType() == POSITION_TYPE_BUY) ? m_symbol.Bid() : m_symbol.Ask();
+         double openPrice = m_position.PriceOpen();
+         double currentSL = m_position.StopLoss();
+         double currentTP = m_position.TakeProfit();
 
-         if(position.PositionType() == POSITION_TYPE_BUY)
+         if(m_position.PositionType() == POSITION_TYPE_BUY)
          {
             double profitPoints = (currentPrice - openPrice) / _Point;
             if(profitPoints >= InpTrailingStart)
@@ -291,11 +291,11 @@ void ManageTrailingStop()
                double newSL = currentPrice - (InpTrailingStart * _Point);
                if(currentSL < newSL - (InpTrailingStep * _Point) || currentSL == 0)
                {
-                  trade.PositionModify(position.Ticket(), newSL, currentTP);
+                  m_trade.PositionModify(m_position.Ticket(), newSL, currentTP);
                }
             }
          }
-         else if(position.PositionType() == POSITION_TYPE_SELL)
+         else if(m_position.PositionType() == POSITION_TYPE_SELL)
          {
             double profitPoints = (openPrice - currentPrice) / _Point;
             if(profitPoints >= InpTrailingStart)
@@ -303,7 +303,7 @@ void ManageTrailingStop()
                double newSL = currentPrice + (InpTrailingStart * _Point);
                if(currentSL > newSL + (InpTrailingStep * _Point) || currentSL == 0)
                {
-                  trade.PositionModify(position.Ticket(), newSL, currentTP);
+                  m_trade.PositionModify(m_position.Ticket(), newSL, currentTP);
                }
             }
          }
@@ -318,16 +318,16 @@ void CloseAllPositionsAndOrders()
 {
    for(int i = PositionsTotal() - 1; i >= 0; i--)
    {
-      if(position.SelectByIndex(i) && position.Symbol() == _Symbol && position.Magic() == 1337)
+      if(m_position.SelectByIndex(i) && m_position.Symbol() == _Symbol && m_position.Magic() == 1337)
       {
-         trade.PositionClose(position.Ticket());
+         m_trade.PositionClose(m_position.Ticket());
       }
    }
    for(int i = OrdersTotal() - 1; i >= 0; i--)
    {
-      if(order.SelectByIndex(i) && order.Symbol() == _Symbol && order.Magic() == 1337)
+      if(m_order.SelectByIndex(i) && m_order.Symbol() == _Symbol && m_order.Magic() == 1337)
       {
-         trade.OrderDelete(order.Ticket());
+         m_trade.OrderDelete(m_order.Ticket());
       }
    }
    LblStatus.Text("Status: All Closed.");
@@ -340,7 +340,7 @@ void OnTick()
   {
    if(!isTradingEnabled) return;
 
-   symbol.RefreshRates();
+   m_symbol.RefreshRates();
 
    // Update Spread GUI
    int spread = (int)SymbolInfoInteger(_Symbol, SYMBOL_SPREAD);
@@ -378,12 +378,12 @@ void OnTick()
    int myOrders = 0;
    for(int i = 0; i < OrdersTotal(); i++)
    {
-      if(order.SelectByIndex(i) && order.Symbol() == _Symbol && order.Magic() == 1337) myOrders++;
+      if(m_order.SelectByIndex(i) && m_order.Symbol() == _Symbol && m_order.Magic() == 1337) myOrders++;
    }
    int myPositions = 0;
    for(int i = 0; i < PositionsTotal(); i++)
    {
-      if(position.SelectByIndex(i) && position.Symbol() == _Symbol && position.Magic() == 1337) myPositions++;
+      if(m_position.SelectByIndex(i) && m_position.Symbol() == _Symbol && m_position.Magic() == 1337) myPositions++;
    }
 
    // Only place new orders if none exist
@@ -391,7 +391,7 @@ void OnTick()
    {
       if(candleRange > volatilityLimit)
       {
-         double currentPrice = symbol.Ask();
+         double currentPrice = m_symbol.Ask();
          int filterDirection = CheckFilterDirection(currentPrice);
 
          double lot = CalculateLotSize(InpStopLoss);
@@ -399,18 +399,18 @@ void OnTick()
 
          if(filterDirection >= 0) // Buy allowed
          {
-            double buyPrice = symbol.Ask() + (InpPendingDistance * _Point);
+            double buyPrice = m_symbol.Ask() + (InpPendingDistance * _Point);
             double sl = buyPrice - (InpStopLoss * _Point);
             double tp = buyPrice + (InpTakeProfit * _Point);
-            trade.BuyStop(lot, buyPrice, _Symbol, sl, tp, ORDER_TIME_SPECIFIED, expiration);
+            m_trade.BuyStop(lot, buyPrice, _Symbol, sl, tp, ORDER_TIME_SPECIFIED, expiration);
          }
 
          if(filterDirection <= 0) // Sell allowed
          {
-            double sellPrice = symbol.Bid() - (InpPendingDistance * _Point);
+            double sellPrice = m_symbol.Bid() - (InpPendingDistance * _Point);
             double sl = sellPrice + (InpStopLoss * _Point);
             double tp = sellPrice - (InpTakeProfit * _Point);
-            trade.SellStop(lot, sellPrice, _Symbol, sl, tp, ORDER_TIME_SPECIFIED, expiration);
+            m_trade.SellStop(lot, sellPrice, _Symbol, sl, tp, ORDER_TIME_SPECIFIED, expiration);
          }
       }
    }
